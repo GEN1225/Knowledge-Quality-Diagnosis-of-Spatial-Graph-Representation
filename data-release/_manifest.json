@@ -1,0 +1,1192 @@
+[
+ {
+  "path": "data/20260520_single_year_2021_scaled_ndvi.parquet",
+  "bytes": 1089930,
+  "sha256_16": "025b0e281f20b296",
+  "source": "<ROOT>/experiment_datasets_export_20260609/主数据集_逐年scaled/20260520_single_year_2021_scaled_ndvi.parquet",
+  "supports": "论文主数据集。N=8000，清洗后 N=6638。全部随机划分/缓冲/分块实验都用它 (脚本引用 138 处)"
+ },
+ {
+  "path": "data/20260521_single_year_2021_with_potapov_chm.parquet",
+  "bytes": 1127311,
+  "sha256_16": "390e09e409dcc8ed",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/datasets/20260521_single_year_2021_with_potapov_chm.parquet",
+  "supports": "树冠高(TCH)变体。tab:abl「Tree-canopy-height gating」行来自读它的 window_D 实验"
+ },
+ {
+  "path": "data/20260521_single_year_2021_scaled_ndvi_with_gedi.parquet",
+  "bytes": 1172344,
+  "sha256_16": "21fc76a0c5c4f126",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/datasets/20260521_single_year_2021_scaled_ndvi_with_gedi.parquet",
+  "supports": "GEDI 树冠高变体。window_D 树冠高对照的另一个输入"
+ },
+ {
+  "path": "data/20260523_single_year_2021_with_alos_smoke.parquet",
+  "bytes": 136792,
+  "sha256_16": "558aec2ab6b4416e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/datasets/20260523_single_year_2021_with_alos_smoke.parquet",
+  "supports": "ALOS PALSAR 变体。tab:abl「SAR texture features」行 (N=335) 来自读它的 window_G 实验"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/plots/fig_terrain_aware_benchmark.png",
+  "bytes": 66523,
+  "sha256_16": "3eb99612c5dd38a5",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/plots/fig_terrain_aware_benchmark.png",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/terrain_aware_paired.csv",
+  "bytes": 678,
+  "sha256_16": "c7a290aa6f0e3143",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/terrain_aware_paired.csv",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/terrain_aware_raw.csv",
+  "bytes": 5435,
+  "sha256_16": "8f662c4b3d2e84e1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/terrain_aware_raw.csv",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/terrain_aware_raw_before_nnconv_fix.csv",
+  "bytes": 1684,
+  "sha256_16": "df91c5f97ab50ba8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/terrain_aware_raw_before_nnconv_fix.csv",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/terrain_aware_report.md",
+  "bytes": 1907,
+  "sha256_16": "f43be482208f91a3",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/terrain_aware_report.md",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_terrain_aware_20260824_190303/terrain_aware_summary.csv",
+  "bytes": 773,
+  "sha256_16": "b612e7efb5fe08c0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_terrain_aware_20260824_190303/terrain_aware_summary.csv",
+  "supports": "tab:main、tab:terrain；§5.3 阈值敏感性"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/ndvi_geo_lr_fairness_raw.csv",
+  "bytes": 656,
+  "sha256_16": "2f354df51daf412f",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/ndvi_geo_lr_fairness_raw.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/plots/fig_mad_ratio_vs_dR2.png",
+  "bytes": 49959,
+  "sha256_16": "a9ced012bfabc23a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/plots/fig_mad_ratio_vs_dR2.png",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_diag.csv",
+  "bytes": 738,
+  "sha256_16": "0f2ef737279b404e",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_diag.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw.csv",
+  "bytes": 4191,
+  "sha256_16": "a3495c64211d3ac5",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_AGB.csv",
+  "bytes": 989,
+  "sha256_16": "32aa2efddbe4241a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_AGB.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_LST.csv",
+  "bytes": 1590,
+  "sha256_16": "14fc091117b2ddc8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_LST.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_NDVI.csv",
+  "bytes": 1654,
+  "sha256_16": "d171744724a1cd01",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_raw_NDVI.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_report.md",
+  "bytes": 2011,
+  "sha256_16": "3355332dda29e391",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_report.md",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_summary.csv",
+  "bytes": 1765,
+  "sha256_16": "aaad3421a423d7d0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gate_threshold_sweep_20260823_212454/threshold_sweep_summary.csv",
+  "supports": "tab:tau、tab:second；版面4/8/10 三张图"
+ },
+ {
+  "path": "experiments/KAIS/window_M_efficiency_20260823_203946/efficiency_raw.csv",
+  "bytes": 2380,
+  "sha256_16": "26d97d41865b4691",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_efficiency_20260823_203946/efficiency_raw.csv",
+  "supports": "tab:main 的 Train(s) 训练时长列"
+ },
+ {
+  "path": "experiments/KAIS/window_M_efficiency_20260823_203946/efficiency_report.md",
+  "bytes": 2320,
+  "sha256_16": "b6eedbaf21954af1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_efficiency_20260823_203946/efficiency_report.md",
+  "supports": "tab:main 的 Train(s) 训练时长列"
+ },
+ {
+  "path": "experiments/KAIS/window_M_efficiency_20260823_203946/efficiency_summary.csv",
+  "bytes": 908,
+  "sha256_16": "446611e4ed090de9",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_efficiency_20260823_203946/efficiency_summary.csv",
+  "supports": "tab:main 的 Train(s) 训练时长列"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_paired.csv",
+  "bytes": 6048,
+  "sha256_16": "73e91279fdbbf49c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_paired.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_raw.csv",
+  "bytes": 13390,
+  "sha256_16": "1a3e699235d8c8ef",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_raw.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_summary.csv",
+  "bytes": 1933,
+  "sha256_16": "e88cdf4ec0c450c3",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/buffer_split_strict_10seeds_summary.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/plots/fig_egsg_gain_by_split_strict_10seeds.png",
+  "bytes": 32948,
+  "sha256_16": "ae01a00513efdc0c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/plots/fig_egsg_gain_by_split_strict_10seeds.png",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/plots/fig_spatial_strict_10seeds_r2.png",
+  "bytes": 45745,
+  "sha256_16": "b28c34ab99f66e54",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/plots/fig_spatial_strict_10seeds_r2.png",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/window_M_buffer_split_strict_10seeds_report.md",
+  "bytes": 3573,
+  "sha256_16": "a1c0731f3711ecd7",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_split_strict_20260823_200451/window_M_buffer_split_strict_10seeds_report.md",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_paired.csv",
+  "bytes": 7619,
+  "sha256_16": "b08849bdcd2be130",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_paired.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_raw.csv",
+  "bytes": 16464,
+  "sha256_16": "febb294117870015",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_raw.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_summary.csv",
+  "bytes": 2393,
+  "sha256_16": "8a3e75841f18f5a4",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/block_elev_10seeds_summary.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/lsi_agg_by_split_10seeds.csv",
+  "bytes": 379,
+  "sha256_16": "ec4162cc03107f67",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/lsi_agg_by_split_10seeds.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/lsi_by_split_10seeds.csv",
+  "bytes": 1939,
+  "sha256_16": "ec9dedc42fcd472e",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/lsi_by_split_10seeds.csv",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/plots/fig_block_elev_10seeds_r2.png",
+  "bytes": 43844,
+  "sha256_16": "5139a677f718d393",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/plots/fig_block_elev_10seeds_r2.png",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/plots/fig_egsg_gain_block_elev_10seeds.png",
+  "bytes": 29432,
+  "sha256_16": "dfd8ce2ed41e7fe1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/plots/fig_egsg_gain_block_elev_10seeds.png",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_block_elev_10seeds_20260826_195611/window_M_block_elev_10seeds_report.md",
+  "bytes": 4419,
+  "sha256_16": "914701bc8b310eaf",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_block_elev_10seeds_20260826_195611/window_M_block_elev_10seeds_report.md",
+  "supports": "tab:splits、tab:lsi；版面7/9"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/buffer_scan_curve.csv",
+  "bytes": 638,
+  "sha256_16": "86dedc8c8a87dfef",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/buffer_scan_curve.csv",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/buffer_scan_raw.csv",
+  "bytes": 5265,
+  "sha256_16": "3f7774344752a130",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/buffer_scan_raw.csv",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/buffer_scan_report.md",
+  "bytes": 1795,
+  "sha256_16": "c72d74e664247972",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/buffer_scan_report.md",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/buffer_scan_summary.csv",
+  "bytes": 766,
+  "sha256_16": "48a22038fd398dda",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/buffer_scan_summary.csv",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/plots/fig_buffer_sweep_delta_lsi.png",
+  "bytes": 75525,
+  "sha256_16": "164d79b066c04bfb",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/plots/fig_buffer_sweep_delta_lsi.png",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/plots/fig_buffer_sweep_r2.png",
+  "bytes": 58220,
+  "sha256_16": "862efc557119b333",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_buffer_scan_20260824_135305/plots/fig_buffer_sweep_r2.png",
+  "supports": "版面7 的 buffer-scan 曲线"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/eta2_elev_bands.csv",
+  "bytes": 105,
+  "sha256_16": "7f6970865b6dfdd8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/eta2_elev_bands.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/info_theory_report.md",
+  "bytes": 4168,
+  "sha256_16": "9738c274dbbbb0df",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/info_theory_report.md",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/irr_by_tau.csv",
+  "bytes": 350,
+  "sha256_16": "5c7fa06db10c6049",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/irr_by_tau.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/mi_by_elev_bin.csv",
+  "bytes": 2352,
+  "sha256_16": "5d80997673e69ac6",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/mi_by_elev_bin.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/node_kept_vs_rejected.csv",
+  "bytes": 270,
+  "sha256_16": "8d85742b399591cd",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/node_kept_vs_rejected.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/plots/fig_mi_vs_elev_gap.png",
+  "bytes": 135018,
+  "sha256_16": "a65873d012b9df3c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/plots/fig_mi_vs_elev_gap.png",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/pool_stats.csv",
+  "bytes": 126,
+  "sha256_16": "df62a9820b074147",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/pool_stats.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_info_theory_20260824_185758/tau_star_crosscheck.csv",
+  "bytes": 159,
+  "sha256_16": "b20c557745982dcc",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_info_theory_20260824_185758/tau_star_crosscheck.csv",
+  "supports": "§5.7；版面11 MI-knee"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/ndvi_tau_new_raw.csv",
+  "bytes": 991,
+  "sha256_16": "ef9873b23e342449",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/ndvi_tau_new_raw.csv",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/plots/fig_tau_selection_protocol.png",
+  "bytes": 89547,
+  "sha256_16": "6a55f35fed1e700c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/plots/fig_tau_selection_protocol.png",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/protocol_equivalence_anchor.csv",
+  "bytes": 61,
+  "sha256_16": "a47b88a832bdc823",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/protocol_equivalence_anchor.csv",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_paired.csv",
+  "bytes": 359,
+  "sha256_16": "fabcbd3ae5fbd632",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_paired.csv",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_report.md",
+  "bytes": 2242,
+  "sha256_16": "0127cf872ed8efc2",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_report.md",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_summary.csv",
+  "bytes": 1212,
+  "sha256_16": "79c51f362e78645f",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_tau_selection_protocol_20260824_235917/tau_selection_protocol_summary.csv",
+  "supports": "§5.7 τ-协议；版面12"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/merged_seed_results.csv",
+  "bytes": 8596,
+  "sha256_16": "1ac2b5858255ff44",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/merged_seed_results.csv",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/paired_comparison_results_lightgbm.csv",
+  "bytes": 5033,
+  "sha256_16": "8c78b83d67a5fee1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/paired_comparison_results_lightgbm.csv",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/paper_comparison_table_lightgbm.csv",
+  "bytes": 1141,
+  "sha256_16": "31e3865f6daa9127",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/paper_comparison_table_lightgbm.csv",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/plots/method_r2_boxplot_lightgbm.png",
+  "bytes": 63917,
+  "sha256_16": "48050d8053b7d049",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/plots/method_r2_boxplot_lightgbm.png",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/raw_seed_results_lightgbm.csv",
+  "bytes": 1853,
+  "sha256_16": "a9080e86d87717f5",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/raw_seed_results_lightgbm.csv",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/tuned_hyperparams_by_seed.csv",
+  "bytes": 625,
+  "sha256_16": "d687b113f980b263",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/tuned_hyperparams_by_seed.csv",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_lightgbm_20260823_184037/window_M_lightgbm_report.md",
+  "bytes": 3046,
+  "sha256_16": "c52ac94153a6b287",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_lightgbm_20260823_184037/window_M_lightgbm_report.md",
+  "supports": "版面5 (LightGBM 对照)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_diag.csv",
+  "bytes": 639,
+  "sha256_16": "bfbe15a1049fed2d",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_diag.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_raw.csv",
+  "bytes": 5581,
+  "sha256_16": "ebcc505f6a049454",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_raw.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_raw_AGB.csv",
+  "bytes": 2146,
+  "sha256_16": "0d0b90844f35915d",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_raw_AGB.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_raw_LST.csv",
+  "bytes": 1715,
+  "sha256_16": "f47b6432790d1be4",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_raw_LST.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_raw_NDVI.csv",
+  "bytes": 1770,
+  "sha256_16": "8f26983b7c9952fd",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_raw_NDVI.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_summary.csv",
+  "bytes": 1456,
+  "sha256_16": "e25f0f7dd23a1108",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_summary.csv",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/adaptive_threshold_report.md",
+  "bytes": 2547,
+  "sha256_16": "4c6daa96ca220a5f",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/adaptive_threshold_report.md",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_adaptive_threshold_20260824_190248/plots/fig_adaptive_dR2.png",
+  "bytes": 66761,
+  "sha256_16": "c515d61ab27fab81",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_adaptive_threshold_20260824_190248/plots/fig_adaptive_dR2.png",
+  "supports": "版面5 (Set B 逐种子原值)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_raw.csv",
+  "bytes": 32995,
+  "sha256_16": "9abe41b7dae51fc8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_raw.csv",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_report.md",
+  "bytes": 3981,
+  "sha256_16": "cc47fe512ff36e06",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_report.md",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_summary.csv",
+  "bytes": 4147,
+  "sha256_16": "2550eed6e42ae58c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/L2_k_sensitivity_summary.csv",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/plots/fig_connectivity_vs_k.png",
+  "bytes": 92310,
+  "sha256_16": "35b3a89f550eac4a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/plots/fig_connectivity_vs_k.png",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/plots/fig_egsg_gain_vs_k.png",
+  "bytes": 72054,
+  "sha256_16": "830c37dc75fe8107",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/plots/fig_egsg_gain_vs_k.png",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/plots/fig_L2_k_sensitivity.png",
+  "bytes": 80815,
+  "sha256_16": "b07a8eb16c7ce32a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_k_sensitivity_20260823_185054/plots/fig_L2_k_sensitivity.png",
+  "supports": "tab:k"
+ },
+ {
+  "path": "experiments/KAIS/window_M_agb_elevation_ablation_20260824_132928/ablation_raw.csv",
+  "bytes": 1300,
+  "sha256_16": "bbe7f467490805f0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_agb_elevation_ablation_20260824_132928/ablation_raw.csv",
+  "supports": "tab:abl 高程特征消融行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_agb_elevation_ablation_20260824_132928/ablation_summary.csv",
+  "bytes": 276,
+  "sha256_16": "50a93ae8b24a6abd",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_agb_elevation_ablation_20260824_132928/ablation_summary.csv",
+  "supports": "tab:abl 高程特征消融行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_agb_elevation_ablation_20260824_132928/agb_elevation_ablation_report.md",
+  "bytes": 961,
+  "sha256_16": "b940138682c139bf",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_agb_elevation_ablation_20260824_132928/agb_elevation_ablation_report.md",
+  "supports": "tab:abl 高程特征消融行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_agb_elevation_ablation_20260824_132928/plots/fig_ablation_elevation_agb.png",
+  "bytes": 42106,
+  "sha256_16": "eb06a37ff692654e",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_agb_elevation_ablation_20260824_132928/plots/fig_ablation_elevation_agb.png",
+  "supports": "tab:abl 高程特征消融行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_random_edge_pruning_20260824_133952/plots/fig_random_pruning_agb.png",
+  "bytes": 46330,
+  "sha256_16": "0677be3f61f045d5",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_random_edge_pruning_20260824_133952/plots/fig_random_pruning_agb.png",
+  "supports": "tab:abl 随机剪边控制行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_random_edge_pruning_20260824_133952/random_prune_raw.csv",
+  "bytes": 1763,
+  "sha256_16": "b6e166e0654972b0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_random_edge_pruning_20260824_133952/random_prune_raw.csv",
+  "supports": "tab:abl 随机剪边控制行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_random_edge_pruning_20260824_133952/random_prune_summary.csv",
+  "bytes": 289,
+  "sha256_16": "f8d3cc5ea81f703b",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_random_edge_pruning_20260824_133952/random_prune_summary.csv",
+  "supports": "tab:abl 随机剪边控制行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_random_edge_pruning_20260824_133952/random_pruning_report.md",
+  "bytes": 1426,
+  "sha256_16": "9382fe9a372ea781",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_random_edge_pruning_20260824_133952/random_pruning_report.md",
+  "supports": "tab:abl 随机剪边控制行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_negative_transfer_addback_20260824_134652/addback_raw.csv",
+  "bytes": 4734,
+  "sha256_16": "10c5f4e54c6053c0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_negative_transfer_addback_20260824_134652/addback_raw.csv",
+  "supports": "tab:abl add-back 剂量响应行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_negative_transfer_addback_20260824_134652/addback_report.md",
+  "bytes": 1976,
+  "sha256_16": "0a8664034623de97",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_negative_transfer_addback_20260824_134652/addback_report.md",
+  "supports": "tab:abl add-back 剂量响应行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_negative_transfer_addback_20260824_134652/addback_summary.csv",
+  "bytes": 633,
+  "sha256_16": "7687dc54c7a6af90",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_negative_transfer_addback_20260824_134652/addback_summary.csv",
+  "supports": "tab:abl add-back 剂量响应行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_negative_transfer_addback_20260824_134652/plots/fig_addback_trend.png",
+  "bytes": 59268,
+  "sha256_16": "ecd34e1ab41a16d7",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_negative_transfer_addback_20260824_134652/plots/fig_addback_trend.png",
+  "supports": "tab:abl add-back 剂量响应行"
+ },
+ {
+  "path": "experiments/KAIS/window_M_backfill_ablation_20260903_095741/backfill_ablation_raw.csv",
+  "bytes": 1050,
+  "sha256_16": "6ea6ba48c2683f8c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_backfill_ablation_20260903_095741/backfill_ablation_raw.csv",
+  "supports": "tab:abl backfill 行 (random)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_backfill_ablation_20260903_095741/backfill_ablation_summary.csv",
+  "bytes": 179,
+  "sha256_16": "6be7b42d60ff81bd",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_backfill_ablation_20260903_095741/backfill_ablation_summary.csv",
+  "supports": "tab:abl backfill 行 (random)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_backfill_ablation_buffer_20260903_100859/buffer_30km_backfill_raw.csv",
+  "bytes": 1086,
+  "sha256_16": "a5cf6dd4b599b727",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_backfill_ablation_buffer_20260903_100859/buffer_30km_backfill_raw.csv",
+  "supports": "tab:abl backfill 行 (b30)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_backfill_ablation_buffer_20260903_100859/buffer_30km_backfill_summary.csv",
+  "bytes": 186,
+  "sha256_16": "4cb4c4abe4b4ab9f",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_backfill_ablation_buffer_20260903_100859/buffer_30km_backfill_summary.csv",
+  "supports": "tab:abl backfill 行 (b30)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/plots/fig_second_variable_LST.png",
+  "bytes": 28027,
+  "sha256_16": "b2c1e94d7bb0bfe4",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/plots/fig_second_variable_LST.png",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/plots/fig_second_variable_NDVI.png",
+  "bytes": 27297,
+  "sha256_16": "d18d1a93165615fa",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/plots/fig_second_variable_NDVI.png",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/second_variable_paired.csv",
+  "bytes": 913,
+  "sha256_16": "9f4ef4a615dafaff",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/second_variable_paired.csv",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/second_variable_raw.csv",
+  "bytes": 6195,
+  "sha256_16": "fc42401a97c419f0",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/second_variable_raw.csv",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/second_variable_report.md",
+  "bytes": 2092,
+  "sha256_16": "a892cbc76b4ec084",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/second_variable_report.md",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/second_variable_summary.csv",
+  "bytes": 770,
+  "sha256_16": "c1e718a0cd523f12",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_20260823_205126/second_variable_summary.csv",
+  "supports": "§5.5 第二目标 (NDVI/LST) random 分裂"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/plots/fig_second_variable_buffer_LST.png",
+  "bytes": 41824,
+  "sha256_16": "8e48d596e5f2faae",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/plots/fig_second_variable_buffer_LST.png",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/plots/fig_second_variable_buffer_NDVI.png",
+  "bytes": 42220,
+  "sha256_16": "286a54e4ed856493",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/plots/fig_second_variable_buffer_NDVI.png",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_paired.csv",
+  "bytes": 3890,
+  "sha256_16": "c658240c903a058f",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_paired.csv",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_raw.csv",
+  "bytes": 13640,
+  "sha256_16": "456b4845e5b16df5",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_raw.csv",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_report.md",
+  "bytes": 4583,
+  "sha256_16": "018ef3bb442fa908",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_report.md",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_summary.csv",
+  "bytes": 1854,
+  "sha256_16": "1ffcf8ac5abd54e9",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_buffer_20260826_FULL/second_variable_buffer_summary.csv",
+  "supports": "§5.5 第二目标外推 (LST Geo .463 / EGSG .445)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gwr_kriging_20260824_135657/gwr_kriging_raw.csv",
+  "bytes": 827,
+  "sha256_16": "9c19c9d9afb6f2cc",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gwr_kriging_20260824_135657/gwr_kriging_raw.csv",
+  "supports": "§5.5 GWR / ordinary kriging 经典对照"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gwr_kriging_20260824_135657/gwr_kriging_report.md",
+  "bytes": 1361,
+  "sha256_16": "df4ab07a314a3692",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gwr_kriging_20260824_135657/gwr_kriging_report.md",
+  "supports": "§5.5 GWR / ordinary kriging 经典对照"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gwr_kriging_20260824_135657/gwr_kriging_summary.csv",
+  "bytes": 226,
+  "sha256_16": "8c9441bcfb48add1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_gwr_kriging_20260824_135657/gwr_kriging_summary.csv",
+  "supports": "§5.5 GWR / ordinary kriging 经典对照"
+ },
+ {
+  "path": "experiments/KAIS/window_M_data_consistency_20260825_004359/coord_checks.csv",
+  "bytes": 131,
+  "sha256_16": "0f49d64ea682a008",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_data_consistency_20260825_004359/coord_checks.csv",
+  "supports": "tab:data 的数据一致性与半变异"
+ },
+ {
+  "path": "experiments/KAIS/window_M_data_consistency_20260825_004359/variogram.csv",
+  "bytes": 648,
+  "sha256_16": "c592bd837134b028",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_data_consistency_20260825_004359/variogram.csv",
+  "supports": "tab:data 的数据一致性与半变异"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/merged_seed_results.csv",
+  "bytes": 5419,
+  "sha256_16": "8683aab7aca4c481",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/merged_seed_results.csv",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/paired_comparison_results.csv",
+  "bytes": 3970,
+  "sha256_16": "5fe9e234781f6b2a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/paired_comparison_results.csv",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/paper_comparison_table.csv",
+  "bytes": 762,
+  "sha256_16": "9968e03b27a9457c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/paper_comparison_table.csv",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/plots/method_r2_boxplot_with_xgboost.png",
+  "bytes": 38977,
+  "sha256_16": "c27376cd319a45f8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/plots/method_r2_boxplot_with_xgboost.png",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/raw_seed_results.csv",
+  "bytes": 2515,
+  "sha256_16": "30861571458d1b26",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/raw_seed_results.csv",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/replication_check.csv",
+  "bytes": 164,
+  "sha256_16": "b3b8a4b6c18fea2c",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/replication_check.csv",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_baseline_20260823_181555/window_M_xgboost_baseline_report.md",
+  "bytes": 2084,
+  "sha256_16": "bf930fd2e03126ad",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_baseline_20260823_181555/window_M_xgboost_baseline_report.md",
+  "supports": "tab:main / 版面5 (XGBoost 基线)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/merged_seed_results.csv",
+  "bytes": 6679,
+  "sha256_16": "abf9c48dd65a83a3",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/merged_seed_results.csv",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/paired_comparison_results_tuned.csv",
+  "bytes": 3557,
+  "sha256_16": "a3e2c8bab7c0ec6e",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/paired_comparison_results_tuned.csv",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/paper_comparison_table_tuned.csv",
+  "bytes": 866,
+  "sha256_16": "9c8ce9fc3caf749d",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/paper_comparison_table_tuned.csv",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/plots/method_r2_boxplot_xgboost_tuned.png",
+  "bytes": 44515,
+  "sha256_16": "0577fdf20c2da723",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/plots/method_r2_boxplot_xgboost_tuned.png",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/raw_seed_results_tuned.csv",
+  "bytes": 1033,
+  "sha256_16": "0d262c66485d556a",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/raw_seed_results_tuned.csv",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/tuned_hyperparams_by_seed.csv",
+  "bytes": 616,
+  "sha256_16": "15b4a8fd7241e362",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/tuned_hyperparams_by_seed.csv",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_xgboost_tuned_20260823_182349/window_M_xgboost_tuned_report.md",
+  "bytes": 2651,
+  "sha256_16": "0134aee12e912a6b",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_xgboost_tuned_20260823_182349/window_M_xgboost_tuned_report.md",
+  "supports": "tab:main (XGBoost 调参)"
+ },
+ {
+  "path": "experiments/e3_spatial_flagship/e3_spatial_flagship_AGB_buffer.csv",
+  "bytes": 78421,
+  "sha256_16": "49fbfcaeb09dfc72",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_投稿_KAIS版_20260825/code/experiments/outputs/experiments/e3_spatial_flagship/e3_spatial_flagship_AGB_buffer.csv",
+  "supports": "版面6 (空间 Δŷ 分类图)"
+ },
+ {
+  "path": "experiments/e3_spatial_flagship/e3_spatial_flagship_AGB_random.csv",
+  "bytes": 98988,
+  "sha256_16": "f70509f0884fb527",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_投稿_KAIS版_20260825/code/experiments/outputs/experiments/e3_spatial_flagship/e3_spatial_flagship_AGB_random.csv",
+  "supports": "版面6 (空间 Δŷ 分类图)"
+ },
+ {
+  "path": "experiments/e3_spatial_flagship/e3_spatial_flagship_NDVI_buffer.csv",
+  "bytes": 93589,
+  "sha256_16": "2708b01cb8990678",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_投稿_KAIS版_20260825/code/experiments/outputs/experiments/e3_spatial_flagship/e3_spatial_flagship_NDVI_buffer.csv",
+  "supports": "版面6 (空间 Δŷ 分类图)"
+ },
+ {
+  "path": "experiments/e3_spatial_flagship/e3_spatial_flagship_NDVI_random.csv",
+  "bytes": 119875,
+  "sha256_16": "77d83ad82d179e21",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_投稿_KAIS版_20260825/code/experiments/outputs/experiments/e3_spatial_flagship/e3_spatial_flagship_NDVI_random.csv",
+  "supports": "版面6 (空间 Δŷ 分类图)"
+ },
+ {
+  "path": "experiments/backbone_10seed_20260914/paired_comparison_backbone.csv",
+  "bytes": 533,
+  "sha256_16": "94b878320b690ea4",
+  "source": "<ROOT>/最最终终的文档/实验归档/补跑_backbone_10seed_20260914/full_10seed/paired_comparison_backbone.csv",
+  "supports": "tab:bb 跨骨干 10 种子"
+ },
+ {
+  "path": "experiments/backbone_10seed_20260914/raw_seed_results_backbone.csv",
+  "bytes": 7378,
+  "sha256_16": "00aae87ca44bf426",
+  "source": "<ROOT>/最最终终的文档/实验归档/补跑_backbone_10seed_20260914/full_10seed/raw_seed_results_backbone.csv",
+  "supports": "tab:bb 跨骨干 10 种子"
+ },
+ {
+  "path": "experiments/backbone_10seed_20260914/scripts/_rerun_backbone_10seed.py",
+  "bytes": 8939,
+  "sha256_16": "23924d5e19103f6c",
+  "source": "<ROOT>/最最终终的文档/实验归档/补跑_backbone_10seed_20260914/scripts/_rerun_backbone_10seed.py",
+  "supports": "tab:bb 的重跑脚本(存证)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_B_significance_clean_20260604_180905/clean_protocol_report.md",
+  "bytes": 3424,
+  "sha256_16": "a817a9c92dec4d37",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_B_significance_clean_20260604_180905/clean_protocol_report.md",
+  "supports": "被 KAIS 脚本以字符串直接引用 (raw_seed_results_clean.csv)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_B_significance_clean_20260604_180905/paired_comparison_results_clean.csv",
+  "bytes": 2683,
+  "sha256_16": "fd11408a69cb5189",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_B_significance_clean_20260604_180905/paired_comparison_results_clean.csv",
+  "supports": "被 KAIS 脚本以字符串直接引用 (raw_seed_results_clean.csv)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_B_significance_clean_20260604_180905/raw_seed_results_clean.csv",
+  "bytes": 4315,
+  "sha256_16": "d8a7e2a70aa23786",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_B_significance_clean_20260604_180905/raw_seed_results_clean.csv",
+  "supports": "被 KAIS 脚本以字符串直接引用 (raw_seed_results_clean.csv)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_B_significance_clean_20260604_180905/stage_closure_report_clean.md",
+  "bytes": 1419,
+  "sha256_16": "b8da0ca44e13de01",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_B_significance_clean_20260604_180905/stage_closure_report_clean.md",
+  "supports": "被 KAIS 脚本以字符串直接引用 (raw_seed_results_clean.csv)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/experiment_summary.md",
+  "bytes": 6073,
+  "sha256_16": "ee6b1a74a62078de",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/experiment_summary.md",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/graph_statistics.csv",
+  "bytes": 670,
+  "sha256_16": "9fbe60a210da6857",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/graph_statistics.csv",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/landcover_egsg_report.md",
+  "bytes": 2458,
+  "sha256_16": "1d5e995337cfc22a",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/landcover_egsg_report.md",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/opportunity_scan_summary.md",
+  "bytes": 3325,
+  "sha256_16": "481a1407446ef47e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/opportunity_scan_summary.md",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/paired_comparison_results.csv",
+  "bytes": 6163,
+  "sha256_16": "0f92b4c1e5f9308f",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/paired_comparison_results.csv",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/raw_seed_results.csv",
+  "bytes": 7891,
+  "sha256_16": "af9ee1579e5e7e11",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/raw_seed_results.csv",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_C_opportunity_scan_20260605_103628/residual_graph_correction_report.md",
+  "bytes": 1446,
+  "sha256_16": "7e5ac627fc421fef",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_C_opportunity_scan_20260605_103628/residual_graph_correction_report.md",
+  "supports": "tab:abl 土地覆盖软(+0.000,p.997)/硬(-0.010,p.018)、DEM 残差(-0.003,p.595) 三行"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_D_canopy_height_fair_compare_20260608_101316/canopy_height_fair_compare_report.md",
+  "bytes": 4336,
+  "sha256_16": "712f1c082eff0d4e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_D_canopy_height_fair_compare_20260608_101316/canopy_height_fair_compare_report.md",
+  "supports": "tab:abl 树冠高门控行 (-0.006, p=0.311)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_D_canopy_height_fair_compare_20260608_101316/missingness_bias_statistics.csv",
+  "bytes": 703,
+  "sha256_16": "d8e8048bf80a7fee",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_D_canopy_height_fair_compare_20260608_101316/missingness_bias_statistics.csv",
+  "supports": "tab:abl 树冠高门控行 (-0.006, p=0.311)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_D_canopy_height_fair_compare_20260608_101316/missingness_bias_tests.csv",
+  "bytes": 339,
+  "sha256_16": "02a531a2c503d57e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_D_canopy_height_fair_compare_20260608_101316/missingness_bias_tests.csv",
+  "supports": "tab:abl 树冠高门控行 (-0.006, p=0.311)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_D_canopy_height_fair_compare_20260608_101316/paired_comparison_tch_subset.csv",
+  "bytes": 1008,
+  "sha256_16": "8ad14f9c2b653477",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_D_canopy_height_fair_compare_20260608_101316/paired_comparison_tch_subset.csv",
+  "supports": "tab:abl 树冠高门控行 (-0.006, p=0.311)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_D_canopy_height_fair_compare_20260608_101316/raw_seed_results_tch_subset.csv",
+  "bytes": 5705,
+  "sha256_16": "fce17603c60c3e01",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_D_canopy_height_fair_compare_20260608_101316/raw_seed_results_tch_subset.csv",
+  "supports": "tab:abl 树冠高门控行 (-0.006, p=0.311)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/paired_comparison_sar_subset.csv",
+  "bytes": 1853,
+  "sha256_16": "5e6a2131a8066b9e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/paired_comparison_sar_subset.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/raw_seed_results_sar_subset.csv",
+  "bytes": 3270,
+  "sha256_16": "7f0606edfb0df07e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/raw_seed_results_sar_subset.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_asset_inventory.csv",
+  "bytes": 3350,
+  "sha256_16": "8ee2e3bca70b1479",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_asset_inventory.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_coverage_statistics.csv",
+  "bytes": 800,
+  "sha256_16": "1f64c4a72e225cee",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_coverage_statistics.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_fair_compare_report.md",
+  "bytes": 4732,
+  "sha256_16": "45dc36ea255579d4",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_fair_compare_report.md",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_feature_importance.csv",
+  "bytes": 633,
+  "sha256_16": "b0db2d95fb512e1e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_feature_importance.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_independence_diagnosis.csv",
+  "bytes": 760,
+  "sha256_16": "0a232537fa708e49",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_independence_diagnosis.csv",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/window_G_sar_palsar_20260608_111717/sar_valid_vs_missing_bias_report.md",
+  "bytes": 877,
+  "sha256_16": "7af021eef1de904f",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/experiments/window_G_sar_palsar_20260608_111717/sar_valid_vs_missing_bias_report.md",
+  "supports": "tab:abl SAR 纹理行 (+0.054, p=0.235, N=335)"
+ },
+ {
+  "path": "experiments/e2_mi_knee/mi_by_bin.csv",
+  "bytes": 2352,
+  "sha256_16": "eac5b7cfbc73aaeb",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_投稿_KAIS版_20260825/code/experiments/outputs/experiments/loosegat_e2_datasel_20260901_110230/mi_by_bin.csv",
+  "supports": "版面11 (fig11_e2_alternatives.py 直接读的 CSV)"
+ },
+ {
+  "path": "experiments/legacy_EAAI/tables/20260521_potapov_canopy_ablation_results.csv",
+  "bytes": 7517,
+  "sha256_16": "fd5f6d001dd4ffe5",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/tables/20260521_potapov_canopy_ablation_results.csv",
+  "supports": "树冠高逐种子消融表"
+ },
+ {
+  "path": "experiments/legacy_EAAI/tables/20260521_hansen_tch_partial_correlation.csv",
+  "bytes": 2763,
+  "sha256_16": "ee02bebc02dc694e",
+  "source": "<ROOT>/experiment_datasets_export_20260609/_归档_遥感版_EAAI_20260612/outputs/tables/20260521_hansen_tch_partial_correlation.csv",
+  "supports": "Hansen TCH 偏相关 (tab:data 的植被结构口径)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_ablation_20260823_210315/edge_quality_diag.csv",
+  "bytes": 447,
+  "sha256_16": "234c7d16b15950ca",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/window_M_second_variable_ablation_20260823_210315/edge_quality_diag.csv",
+  "supports": "tab:diag 的 MAD_h/MAD_y 交叉核验件 (该 run 其余文件含未印出数值, 只取此件)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_agb_elevation_ablation_20260824_132928/run_log.txt",
+  "bytes": 3973,
+  "sha256_16": "b584722cb40fa3cd",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_agb_elevation_ablation_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_scan_20260824_135305/run_log.txt",
+  "bytes": 6470,
+  "sha256_16": "fff10058efe771b4",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_buffer_scan_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_buffer_split_strict_20260823_200451/run_log.txt",
+  "bytes": 9642,
+  "sha256_16": "b239f5cf82d20bff",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_buffer_split_strict_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_efficiency_20260823_203946/run_log.txt",
+  "bytes": 2975,
+  "sha256_16": "b8946117ec214f36",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_efficiency_run_log_v2.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_gate_threshold_sweep_20260823_212454/run_log.txt",
+  "bytes": 2685,
+  "sha256_16": "981a941160511937",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_gate_threshold_sweep_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_k_sensitivity_20260823_185054/run_log.txt",
+  "bytes": 15285,
+  "sha256_16": "79f238db58b6f8ba",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_k_sensitivity_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_negative_transfer_addback_20260824_134652/run_log.txt",
+  "bytes": 8608,
+  "sha256_16": "fd3a5871ee5bd7c1",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_negative_transfer_addback_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_random_edge_pruning_20260824_133952/run_log.txt",
+  "bytes": 3366,
+  "sha256_16": "7223b3445f5490d8",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_random_edge_pruning_run_log_v3.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_ablation_20260823_210315/run_log.txt",
+  "bytes": 5096,
+  "sha256_16": "88dd7c41e86787e4",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_second_variable_ablation_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/KAIS/window_M_second_variable_20260823_205126/run_log.txt",
+  "bytes": 5819,
+  "sha256_16": "b73b64f7bc448f04",
+  "source": "<ROOT>/最最终终的文档/实验归档/实验输出_40批/_second_variable_run_log.txt",
+  "supports": "该 run 的运行日志(命令行/配置/计时)"
+ },
+ {
+  "path": "experiments/backbone_10seed_20260914/README_补跑说明.md",
+  "bytes": 8326,
+  "sha256_16": "5f03ec96e9277c7c",
+  "source": "<ROOT>/最最终终的文档/实验归档/补跑_backbone_10seed_20260914/README_补跑说明.md",
+  "supports": "表6 跨骨干 10 种子重跑的说明"
+ }
+]

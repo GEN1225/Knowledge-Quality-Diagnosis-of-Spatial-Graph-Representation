@@ -1,0 +1,68 @@
+窗口M — 门控阈值扫描 × 三目标（exp_039）
+时间戳: 20260823_212454
+
+================================================================
+任务 AGB: n=6638, 特征=16 维
+  τ=100m: 边数=37142, MAD_y=29.9632, MAD_h=49.7
+  τ=250m: 边数=60698, MAD_y=30.7389, MAD_h=122.6
+  τ=500m: 边数=65717, MAD_y=31.5286, MAD_h=235.3
+  τ=1000m: 边数=66376, MAD_y=32.8633, MAD_h=404.8
+  Geo(无门控): 边数=66380, MAD_y=33.4057
+    seed 42: AGB 100   R²=+0.3880
+    seed 42: AGB 250   R²=+0.4017
+    seed 42: AGB 500   R²=+0.4052
+    seed 42: AGB 1000  R²=+0.3850
+    seed 42: AGB Geo   R²=+0.3624
+    seed 123: AGB 100   R²=+0.4101
+    seed 123: AGB 250   R²=+0.4250
+    seed 123: AGB 500   R²=+0.4084
+    seed 123: AGB 1000  R²=+0.3819
+    seed 123: AGB Geo   R²=+0.3690
+    seed 2025: AGB 100   R²=+0.3670
+    seed 2025: AGB 250   R²=+0.3824
+    seed 2025: AGB 500   R²=+0.3968
+    seed 2025: AGB 1000  R²=+0.3633
+    seed 2025: AGB Geo   R²=+0.3555
+    seed 7: AGB 100   R²=+0.4268
+    seed 7: AGB 250   R²=+0.4308
+    seed 7: AGB 500   R²=+0.4277
+    seed 7: AGB 1000  R²=+0.3968
+    seed 7: AGB Geo   R²=+0.3654
+    seed 13: AGB 100   R²=+0.4114
+    seed 13: AGB 250   R²=+0.4304
+    seed 13: AGB 500   R²=+0.4163
+    seed 13: AGB 1000  R²=+0.3931
+    seed 13: AGB Geo   R²=+0.3748
+    seed 37: AGB 100   R²=+0.3937
+    seed 37: AGB 250   R²=+0.4130
+    seed 37: AGB 500   R²=+0.4115
+    seed 37: AGB 1000  R²=+0.3946
+    seed 37: AGB Geo   R²=+0.3765
+    seed 61: AGB 100   R²=+0.4148
+    seed 61: AGB 250   R²=+0.4377
+    seed 61: AGB 500   R²=+0.4440
+    seed 61: AGB 1000  R²=+0.4168
+    seed 61: AGB Geo   R²=+0.3889
+    seed 73: AGB 100   R²=+0.3725
+    seed 73: AGB 250   R²=+0.3868
+    seed 73: AGB 500   R²=+0.3865
+    seed 73: AGB 1000  R²=+0.3497
+    seed 73: AGB Geo   R²=+0.3493
+    seed 97: AGB 100   R²=+0.3524
+    seed 97: AGB 250   R²=+0.3712
+    seed 97: AGB 500   R²=+0.3717
+    seed 97: AGB 1000  R²=+0.3364
+    seed 97: AGB Geo   R²=+0.3205
+    seed 101: AGB 100   R²=+0.4077
+    seed 101: AGB 250   R²=+0.4156
+    seed 101: AGB 500   R²=+0.4122
+    seed 101: AGB 1000  R²=+0.3706
+    seed 101: AGB Geo   R²=+0.3554
+Traceback (most recent call last):
+  File "C:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_gate_threshold_sweep.py", line 416, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_gate_threshold_sweep.py", line 255, in main
+    vals = np.array(r2s[vname])
+                    ~~~^^^^^^^
+KeyError: '100'

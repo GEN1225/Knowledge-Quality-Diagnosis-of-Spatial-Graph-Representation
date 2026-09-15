@@ -1,0 +1,4 @@
+﻿task,tau_star_knee,decay250_pct,sign_flip_bin,tau_opt_emp,knee_match
+AGB,250,14.3,,250,True
+LST,500,6.5,1500.0,1000,False
+NDVI,200,35.6,2500.0,100,True
