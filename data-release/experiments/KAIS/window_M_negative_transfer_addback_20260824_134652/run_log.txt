@@ -1,0 +1,164 @@
+窗口M — 负迁移加回实验（exp_042，KAIS A2，6 变体家族）
+时间戳: 20260824_134652
+清洗后样本: 6638（与 exp_034 同口径）
+构建边家族 ...
+  EGSG(acc): 121396, 违规(rej): 90368, G1: 42392, G1+rej=132760 (应=Geo 132760)
+
+[buffer_30km] train=5217, test=1042
+    seed 42: buffer30 EGSG   R²=-0.1831 (边119660)
+    seed 42: buffer30 Add25  R²=-0.1241 (边142098)
+    seed 42: buffer30 Add50  R²=-0.1394 (边164564)
+    seed 42: buffer30 Add100 R²=-0.1367 (边209264)
+    seed 42: buffer30 G1     R²=-0.1641 (边41954)
+    seed 42: buffer30 Geo    R²=-0.1058 (边131558)
+    seed 123: buffer30 EGSG   R²=-0.1673 (边119660)
+    seed 123: buffer30 Add25  R²=-0.2248 (边142102)
+    seed 123: buffer30 Add50  R²=-0.1979 (边164472)
+    seed 123: buffer30 Add100 R²=-0.1347 (边209264)
+    seed 123: buffer30 G1     R²=-0.1652 (边41954)
+    seed 123: buffer30 Geo    R²=-0.1499 (边131558)
+    seed 2025: buffer30 EGSG   R²=-0.2467 (边119660)
+    seed 2025: buffer30 Add25  R²=-0.1738 (边142010)
+    seed 2025: buffer30 Add50  R²=-0.1477 (边164386)
+    seed 2025: buffer30 Add100 R²=-0.1879 (边209264)
+    seed 2025: buffer30 G1     R²=-0.2212 (边41954)
+    seed 2025: buffer30 Geo    R²=-0.1333 (边131558)
+    seed 7: buffer30 EGSG   R²=-0.1828 (边119660)
+    seed 7: buffer30 Add25  R²=-0.1826 (边142052)
+    seed 7: buffer30 Add50  R²=-0.1395 (边164294)
+    seed 7: buffer30 Add100 R²=-0.1096 (边209264)
+    seed 7: buffer30 G1     R²=-0.1553 (边41954)
+    seed 7: buffer30 Geo    R²=-0.1107 (边131558)
+    seed 13: buffer30 EGSG   R²=-0.1624 (边119660)
+    seed 13: buffer30 Add25  R²=-0.1929 (边141790)
+    seed 13: buffer30 Add50  R²=-0.1484 (边164470)
+    seed 13: buffer30 Add100 R²=-0.1333 (边209264)
+    seed 13: buffer30 G1     R²=-0.1728 (边41954)
+    seed 13: buffer30 Geo    R²=-0.1290 (边131558)
+    seed 37: buffer30 EGSG   R²=-0.2472 (边119660)
+    seed 37: buffer30 Add25  R²=-0.2369 (边142124)
+    seed 37: buffer30 Add50  R²=-0.2322 (边164476)
+    seed 37: buffer30 Add100 R²=-0.2519 (边209264)
+    seed 37: buffer30 G1     R²=-0.2443 (边41954)
+    seed 37: buffer30 Geo    R²=-0.2482 (边131558)
+    seed 61: buffer30 EGSG   R²=-0.1597 (边119660)
+    seed 61: buffer30 Add25  R²=-0.1211 (边142146)
+    seed 61: buffer30 Add50  R²=-0.0988 (边164408)
+    seed 61: buffer30 Add100 R²=-0.1611 (边209264)
+    seed 61: buffer30 G1     R²=-0.1807 (边41954)
+    seed 61: buffer30 Geo    R²=-0.1024 (边131558)
+    seed 73: buffer30 EGSG   R²=-0.1915 (边119660)
+    seed 73: buffer30 Add25  R²=-0.2229 (边142084)
+    seed 73: buffer30 Add50  R²=-0.3026 (边164564)
+    seed 73: buffer30 Add100 R²=-0.2536 (边209264)
+    seed 73: buffer30 G1     R²=-0.1383 (边41954)
+    seed 73: buffer30 Geo    R²=-0.2632 (边131558)
+    seed 97: buffer30 EGSG   R²=-0.1570 (边119660)
+    seed 97: buffer30 Add25  R²=-0.1465 (边141970)
+    seed 97: buffer30 Add50  R²=-0.1492 (边164444)
+    seed 97: buffer30 Add100 R²=-0.1150 (边209264)
+    seed 97: buffer30 G1     R²=-0.1596 (边41954)
+    seed 97: buffer30 Geo    R²=-0.0054 (边131558)
+    seed 101: buffer30 EGSG   R²=-0.2082 (边119660)
+    seed 101: buffer30 Add25  R²=-0.1218 (边142114)
+    seed 101: buffer30 Add50  R²=-0.1494 (边164404)
+    seed 101: buffer30 Add100 R²=-0.1303 (边209264)
+    seed 101: buffer30 G1     R²=-0.2049 (边41954)
+    seed 101: buffer30 Geo    R²=-0.1137 (边131558)
+
+[buffer_50km] train=4917, test=1042
+    seed 42: buffer50 EGSG   R²=-0.2088 (边119660)
+    seed 42: buffer50 Add25  R²=-0.1449 (边142098)
+    seed 42: buffer50 Add50  R²=-0.1218 (边164564)
+    seed 42: buffer50 Add100 R²=-0.1012 (边209264)
+    seed 42: buffer50 G1     R²=-0.1470 (边41954)
+    seed 42: buffer50 Geo    R²=-0.0867 (边131558)
+    seed 123: buffer50 EGSG   R²=-0.1653 (边119660)
+    seed 123: buffer50 Add25  R²=-0.1753 (边142102)
+    seed 123: buffer50 Add50  R²=-0.1512 (边164472)
+    seed 123: buffer50 Add100 R²=-0.1298 (边209264)
+    seed 123: buffer50 G1     R²=-0.1714 (边41954)
+    seed 123: buffer50 Geo    R²=-0.1459 (边131558)
+    seed 2025: buffer50 EGSG   R²=-0.2684 (边119660)
+    seed 2025: buffer50 Add25  R²=-0.2788 (边142010)
+    seed 2025: buffer50 Add50  R²=-0.3782 (边164386)
+    seed 2025: buffer50 Add100 R²=-0.3032 (边209264)
+    seed 2025: buffer50 G1     R²=-0.2711 (边41954)
+    seed 2025: buffer50 Geo    R²=-0.2072 (边131558)
+    seed 7: buffer50 EGSG   R²=-0.2381 (边119660)
+    seed 7: buffer50 Add25  R²=-0.1945 (边142052)
+    seed 7: buffer50 Add50  R²=-0.2071 (边164294)
+    seed 7: buffer50 Add100 R²=-0.1538 (边209264)
+    seed 7: buffer50 G1     R²=-0.2415 (边41954)
+    seed 7: buffer50 Geo    R²=-0.1099 (边131558)
+    seed 13: buffer50 EGSG   R²=-0.1767 (边119660)
+    seed 13: buffer50 Add25  R²=-0.1957 (边141790)
+    seed 13: buffer50 Add50  R²=-0.1538 (边164470)
+    seed 13: buffer50 Add100 R²=-0.1703 (边209264)
+    seed 13: buffer50 G1     R²=-0.1960 (边41954)
+    seed 13: buffer50 Geo    R²=-0.1400 (边131558)
+    seed 37: buffer50 EGSG   R²=-0.3382 (边119660)
+    seed 37: buffer50 Add25  R²=-0.2767 (边142124)
+    seed 37: buffer50 Add50  R²=-0.2251 (边164476)
+    seed 37: buffer50 Add100 R²=-0.1548 (边209264)
+    seed 37: buffer50 G1     R²=-0.2579 (边41954)
+    seed 37: buffer50 Geo    R²=-0.1676 (边131558)
+    seed 61: buffer50 EGSG   R²=-0.1837 (边119660)
+    seed 61: buffer50 Add25  R²=-0.1396 (边142146)
+    seed 61: buffer50 Add50  R²=-0.0892 (边164408)
+    seed 61: buffer50 Add100 R²=-0.1586 (边209264)
+    seed 61: buffer50 G1     R²=-0.1565 (边41954)
+    seed 61: buffer50 Geo    R²=-0.1562 (边131558)
+    seed 73: buffer50 EGSG   R²=-0.2343 (边119660)
+    seed 73: buffer50 Add25  R²=-0.2446 (边142084)
+    seed 73: buffer50 Add50  R²=-0.2684 (边164564)
+    seed 73: buffer50 Add100 R²=-0.3421 (边209264)
+    seed 73: buffer50 G1     R²=-0.1893 (边41954)
+    seed 73: buffer50 Geo    R²=-0.2803 (边131558)
+    seed 97: buffer50 EGSG   R²=-0.1436 (边119660)
+    seed 97: buffer50 Add25  R²=-0.0970 (边141970)
+    seed 97: buffer50 Add50  R²=-0.0852 (边164444)
+    seed 97: buffer50 Add100 R²=-0.1154 (边209264)
+    seed 97: buffer50 G1     R²=-0.1446 (边41954)
+    seed 97: buffer50 Geo    R²=-0.0628 (边131558)
+    seed 101: buffer50 EGSG   R²=-0.2748 (边119660)
+    seed 101: buffer50 Add25  R²=-0.1206 (边142114)
+    seed 101: buffer50 Add50  R²=-0.1400 (边164404)
+    seed 101: buffer50 Add100 R²=-0.1431 (边209264)
+    seed 101: buffer50 G1     R²=-0.2340 (边41954)
+    seed 101: buffer50 Geo    R²=-0.0688 (边131558)
+
+=== 汇总 ===
+ buffer variant   r2_mean   r2_std
+     30    EGSG -0.190584 0.033678
+     30   Add25 -0.174740 0.044871
+     30   Add50 -0.170500 0.058684
+     30  Add100 -0.161419 0.053017
+     30      G1 -0.180633 0.032875
+     30     Geo -0.136168 0.073985
+     50    EGSG -0.223199 0.059530
+     50   Add25 -0.186763 0.063766
+     50   Add50 -0.181986 0.090408
+     50  Add100 -0.177235 0.079923
+     50      G1 -0.200940 0.047129
+     50     Geo -0.142528 0.066632
+
+锚点检查:
+  buffer30 EGSG  本协议3seed=-0.1990 封存=-0.2190 Δ=+0.0200 [OK]
+  buffer30 Geo   本协议3seed=-0.1297 封存=-0.1290 Δ=-0.0007 [OK]
+  buffer50 EGSG  本协议3seed=-0.2142 封存=-0.2410 Δ=+0.0268 [OK]
+  buffer50 Geo   本协议3seed=-0.1466 封存=-0.1190 Δ=-0.0276 [OK]
+
+加回趋势:
+  buffer30: EGSG/Add25/Add50/Add100/Geo = ['-0.1906', '-0.1747', '-0.1705', '-0.1614', '-0.1362']
+    距 Geo 差距 ['0.0544', '0.0386', '0.0343', '0.0253', '0.0000'] 单调缩小: True
+    EGSG vs Geo 配对: Δ=-0.0544, p=0.023781
+    G1 vs EGSG 配对: Δ=+0.0100, p=0.178968
+  buffer50: EGSG/Add25/Add50/Add100/Geo = ['-0.2232', '-0.1868', '-0.1820', '-0.1772', '-0.1425']
+    距 Geo 差距 ['0.0807', '0.0442', '0.0395', '0.0347', '0.0000'] 单调缩小: True
+    EGSG vs Geo 配对: Δ=-0.0807, p=0.008745
+    G1 vs EGSG 配对: Δ=+0.0223, p=0.065761
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_negative_transfer_addback_20260824_134652\addback_report.md
+判定: buffer30: 加回越多越接近 Geo → 跨高程边在外推时确实带信息（负迁移机制得证）
+判定: buffer50: 加回越多越接近 Geo → 跨高程边在外推时确实带信息（负迁移机制得证）

@@ -1,0 +1,168 @@
+窗口M — buffer 尺寸扫描（exp_043，KAIS B1）
+时间戳: 20260824_135305
+清洗后样本: 6638（与 exp_034 同口径）
+构建 EGSG / Geo 全图 ...
+  EGSG 边数: 121396, Geo 边数: 132760
+
+[random 参考组]
+    seed 42: EGSG-GCN   R²=+0.4017
+    seed 42: Geo-GCN    R²=+0.3624
+    seed 123: EGSG-GCN   R²=+0.4250
+    seed 123: Geo-GCN    R²=+0.3690
+    seed 2025: EGSG-GCN   R²=+0.3824
+    seed 2025: Geo-GCN    R²=+0.3555
+    seed 7: EGSG-GCN   R²=+0.4308
+    seed 7: Geo-GCN    R²=+0.3654
+    seed 13: EGSG-GCN   R²=+0.4304
+    seed 13: Geo-GCN    R²=+0.3748
+    seed 37: EGSG-GCN   R²=+0.4130
+    seed 37: Geo-GCN    R²=+0.3765
+    seed 61: EGSG-GCN   R²=+0.4377
+    seed 61: Geo-GCN    R²=+0.3889
+    seed 73: EGSG-GCN   R²=+0.3868
+    seed 73: Geo-GCN    R²=+0.3493
+    seed 97: EGSG-GCN   R²=+0.3712
+    seed 97: Geo-GCN    R²=+0.3205
+    seed 101: EGSG-GCN   R²=+0.4156
+    seed 101: Geo-GCN    R²=+0.3554
+
+[buffer_10km] train=5467, test=1042, LSI=2.3
+    seed 42: EGSG-GCN   R²=-0.1027
+    seed 42: Geo-GCN    R²=-0.0840
+    seed 123: EGSG-GCN   R²=-0.0818
+    seed 123: Geo-GCN    R²=-0.1649
+    seed 2025: EGSG-GCN   R²=-0.1173
+    seed 2025: Geo-GCN    R²=-0.0747
+    seed 7: EGSG-GCN   R²=-0.1500
+    seed 7: Geo-GCN    R²=-0.1170
+    seed 13: EGSG-GCN   R²=-0.1737
+    seed 13: Geo-GCN    R²=-0.1940
+    seed 37: EGSG-GCN   R²=-0.1622
+    seed 37: Geo-GCN    R²=-0.1479
+    seed 61: EGSG-GCN   R²=-0.1815
+    seed 61: Geo-GCN    R²=-0.1773
+    seed 73: EGSG-GCN   R²=-0.1868
+    seed 73: Geo-GCN    R²=-0.1794
+    seed 97: EGSG-GCN   R²=-0.0971
+    seed 97: Geo-GCN    R²=-0.0816
+    seed 101: EGSG-GCN   R²=-0.1787
+    seed 101: Geo-GCN    R²=-0.1195
+
+[buffer_20km] train=5334, test=1042, LSI=0.4
+    seed 42: EGSG-GCN   R²=-0.1761
+    seed 42: Geo-GCN    R²=-0.0937
+    seed 123: EGSG-GCN   R²=-0.1229
+    seed 123: Geo-GCN    R²=-0.1378
+    seed 2025: EGSG-GCN   R²=-0.1967
+    seed 2025: Geo-GCN    R²=-0.1386
+    seed 7: EGSG-GCN   R²=-0.1532
+    seed 7: Geo-GCN    R²=-0.1080
+    seed 13: EGSG-GCN   R²=-0.1706
+    seed 13: Geo-GCN    R²=-0.1339
+    seed 37: EGSG-GCN   R²=-0.1432
+    seed 37: Geo-GCN    R²=-0.1819
+    seed 61: EGSG-GCN   R²=-0.1612
+    seed 61: Geo-GCN    R²=-0.1814
+    seed 73: EGSG-GCN   R²=-0.1676
+    seed 73: Geo-GCN    R²=-0.1707
+    seed 97: EGSG-GCN   R²=-0.0933
+    seed 97: Geo-GCN    R²=-0.1004
+    seed 101: EGSG-GCN   R²=-0.1343
+    seed 101: Geo-GCN    R²=-0.1064
+
+[buffer_30km] train=5217, test=1042, LSI=0.0
+    seed 42: EGSG-GCN   R²=-0.1831
+    seed 42: Geo-GCN    R²=-0.1068
+    seed 123: EGSG-GCN   R²=-0.1673
+    seed 123: Geo-GCN    R²=-0.1506
+    seed 2025: EGSG-GCN   R²=-0.2467
+    seed 2025: Geo-GCN    R²=-0.1332
+    seed 7: EGSG-GCN   R²=-0.1828
+    seed 7: Geo-GCN    R²=-0.1094
+    seed 13: EGSG-GCN   R²=-0.1624
+    seed 13: Geo-GCN    R²=-0.1281
+    seed 37: EGSG-GCN   R²=-0.2472
+    seed 37: Geo-GCN    R²=-0.2493
+    seed 61: EGSG-GCN   R²=-0.1597
+    seed 61: Geo-GCN    R²=-0.1019
+    seed 73: EGSG-GCN   R²=-0.1915
+    seed 73: Geo-GCN    R²=-0.2676
+    seed 97: EGSG-GCN   R²=-0.1570
+    seed 97: Geo-GCN    R²=-0.0054
+    seed 101: EGSG-GCN   R²=-0.2082
+    seed 101: Geo-GCN    R²=-0.1147
+
+[buffer_50km] train=4917, test=1042, LSI=0.0
+    seed 42: EGSG-GCN   R²=-0.2088
+    seed 42: Geo-GCN    R²=-0.0859
+    seed 123: EGSG-GCN   R²=-0.1653
+    seed 123: Geo-GCN    R²=-0.1458
+    seed 2025: EGSG-GCN   R²=-0.2684
+    seed 2025: Geo-GCN    R²=-0.1587
+    seed 7: EGSG-GCN   R²=-0.2381
+    seed 7: Geo-GCN    R²=-0.1352
+    seed 13: EGSG-GCN   R²=-0.1767
+    seed 13: Geo-GCN    R²=-0.1412
+    seed 37: EGSG-GCN   R²=-0.3382
+    seed 37: Geo-GCN    R²=-0.1696
+    seed 61: EGSG-GCN   R²=-0.1837
+    seed 61: Geo-GCN    R²=-0.1566
+    seed 73: EGSG-GCN   R²=-0.2343
+    seed 73: Geo-GCN    R²=-0.2771
+    seed 97: EGSG-GCN   R²=-0.1436
+    seed 97: Geo-GCN    R²=-0.0634
+    seed 101: EGSG-GCN   R²=-0.2748
+    seed 101: Geo-GCN    R²=-0.0691
+
+[buffer_80km] train=4433, test=1042, LSI=0.0
+    seed 42: EGSG-GCN   R²=-0.2704
+    seed 42: Geo-GCN    R²=-0.1362
+    seed 123: EGSG-GCN   R²=-0.2702
+    seed 123: Geo-GCN    R²=-0.1717
+    seed 2025: EGSG-GCN   R²=-0.1851
+    seed 2025: Geo-GCN    R²=-0.0440
+    seed 7: EGSG-GCN   R²=-0.3124
+    seed 7: Geo-GCN    R²=-0.1873
+    seed 13: EGSG-GCN   R²=-0.1805
+    seed 13: Geo-GCN    R²=-0.0718
+    seed 37: EGSG-GCN   R²=-0.2371
+    seed 37: Geo-GCN    R²=-0.1590
+    seed 61: EGSG-GCN   R²=-0.1400
+    seed 61: Geo-GCN    R²=-0.0489
+    seed 73: EGSG-GCN   R²=-0.3229
+    seed 73: Geo-GCN    R²=-0.2090
+    seed 97: EGSG-GCN   R²=-0.2054
+    seed 97: Geo-GCN    R²=-0.1464
+    seed 101: EGSG-GCN   R²=-0.2660
+    seed 101: Geo-GCN    R²=-0.0455
+
+=== 汇总 ===
+      split   method   r2_mean   r2_std
+     random EGSG-GCN  0.409460 0.022966
+     random  Geo-GCN  0.361785 0.018648
+buffer_10km EGSG-GCN -0.143187 0.039670
+buffer_10km  Geo-GCN -0.134041 0.044666
+buffer_20km EGSG-GCN -0.151907 0.029684
+buffer_20km  Geo-GCN -0.135286 0.033501
+buffer_30km EGSG-GCN -0.190584 0.033678
+buffer_30km  Geo-GCN -0.136694 0.075037
+buffer_50km EGSG-GCN -0.223199 0.059530
+buffer_50km  Geo-GCN -0.140265 0.061629
+buffer_80km EGSG-GCN -0.238994 0.059987
+buffer_80km  Geo-GCN -0.121969 0.063457
+
+锚点检查:
+  buffer30 EGSG-GCN   本协议3seed=-0.1990 封存=-0.2190 Δ=+0.0200 [OK]
+  buffer30 Geo-GCN    本协议3seed=-0.1302 封存=-0.1290 Δ=-0.0012 [OK]
+  buffer50 EGSG-GCN   本协议3seed=-0.2142 封存=-0.2410 Δ=+0.0268 [OK]
+  buffer50 Geo-GCN    本协议3seed=-0.1301 封存=-0.1190 Δ=-0.0111 [OK]
+
+ΔR² 曲线:
+      split     delta        p      lsi  n_train  n_test  egsg_mean  geo_mean
+buffer_10km -0.009146 0.478164 2.305182     5467    1042  -0.143187 -0.134041
+buffer_20km -0.016621 0.211746 0.392514     5334    1042  -0.151907 -0.135286
+buffer_30km -0.053890 0.026671 0.000000     5217    1042  -0.190584 -0.136694
+buffer_50km -0.082934 0.006641 0.000000     4917    1042  -0.223199 -0.140265
+buffer_80km -0.117025 0.000015 0.000000     4433    1042  -0.238994 -0.121969
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_buffer_scan_20260824_135305\buffer_scan_report.md

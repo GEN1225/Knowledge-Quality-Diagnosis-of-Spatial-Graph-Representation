@@ -1,0 +1,125 @@
+窗口M — 第二验证变量：消融 + 外推 + 边质量诊断
+时间戳: 20260823_210315
+
+Part 3: 边质量诊断镜像（MAD_y = 边上目标差异）...
+  AGB (n=6638): Geo MAD_y=33.4057, EGSG MAD_y=30.7389, random=46.4707, 比值=0.920
+  LST (n=7038): Geo MAD_y=1.9793, EGSG MAD_y=1.9185, random=5.2076, 比值=0.969
+  NDVI (n=6637): Geo MAD_y=0.1471, EGSG MAD_y=0.0992, random=0.2129, 比值=0.674
+
+Part 1: 高程特征消融（LST 任务）...
+  full n=7038, noelev n=7038
+    seed 42: MLP_full       R²=+0.7045
+    seed 42: MLP_noelev     R²=+0.5591
+    seed 42: RF_full        R²=+0.7393
+    seed 42: RF_noelev      R²=+0.6035
+    seed 42: Geo_noelev     R²=+0.7094
+    seed 42: EGSG_noelev    R²=+0.7293
+    seed 123: MLP_full       R²=+0.7198
+    seed 123: MLP_noelev     R²=+0.5625
+    seed 123: RF_full        R²=+0.7220
+    seed 123: RF_noelev      R²=+0.6020
+    seed 123: Geo_noelev     R²=+0.7232
+    seed 123: EGSG_noelev    R²=+0.7130
+    seed 2025: MLP_full       R²=+0.7023
+    seed 2025: MLP_noelev     R²=+0.5705
+    seed 2025: RF_full        R²=+0.7241
+    seed 2025: RF_noelev      R²=+0.6010
+    seed 2025: Geo_noelev     R²=+0.7134
+    seed 2025: EGSG_noelev    R²=+0.7216
+    seed 7: MLP_full       R²=+0.6866
+    seed 7: MLP_noelev     R²=+0.5760
+    seed 7: RF_full        R²=+0.7344
+    seed 7: RF_noelev      R²=+0.6600
+    seed 7: Geo_noelev     R²=+0.7200
+    seed 7: EGSG_noelev    R²=+0.7022
+    seed 13: MLP_full       R²=+0.6761
+    seed 13: MLP_noelev     R²=+0.5410
+    seed 13: RF_full        R²=+0.7112
+    seed 13: RF_noelev      R²=+0.5703
+    seed 13: Geo_noelev     R²=+0.7086
+    seed 13: EGSG_noelev    R²=+0.7094
+    seed 37: MLP_full       R²=+0.7211
+    seed 37: MLP_noelev     R²=+0.5741
+    seed 37: RF_full        R²=+0.7412
+    seed 37: RF_noelev      R²=+0.6308
+    seed 37: Geo_noelev     R²=+0.7244
+    seed 37: EGSG_noelev    R²=+0.7243
+    seed 61: MLP_full       R²=+0.6860
+    seed 61: MLP_noelev     R²=+0.5561
+    seed 61: RF_full        R²=+0.7077
+    seed 61: RF_noelev      R²=+0.6045
+    seed 61: Geo_noelev     R²=+0.7073
+    seed 61: EGSG_noelev    R²=+0.6917
+    seed 73: MLP_full       R²=+0.6963
+    seed 73: MLP_noelev     R²=+0.5729
+    seed 73: RF_full        R²=+0.7234
+    seed 73: RF_noelev      R²=+0.6286
+    seed 73: Geo_noelev     R²=+0.7210
+    seed 73: EGSG_noelev    R²=+0.7274
+    seed 97: MLP_full       R²=+0.6978
+    seed 97: MLP_noelev     R²=+0.5628
+    seed 97: RF_full        R²=+0.7190
+    seed 97: RF_noelev      R²=+0.5931
+    seed 97: Geo_noelev     R²=+0.7018
+    seed 97: EGSG_noelev    R²=+0.7116
+    seed 101: MLP_full       R²=+0.7224
+    seed 101: MLP_noelev     R²=+0.5941
+    seed 101: RF_full        R²=+0.7531
+    seed 101: RF_noelev      R²=+0.6425
+    seed 101: Geo_noelev     R²=+0.7231
+    seed 101: EGSG_noelev    R²=+0.7392
+
+  高程特征边际贡献(MLP): +0.1344
+  EGSG 拓扑恢复率: 111.7% ; Geo 拓扑恢复率: 110.4%
+  EGSG_noelev vs Geo_noelev: ΔR²=+0.0017, p=0.678701
+
+Part 2: buffer_30km 外推镜像（LST 任务）...
+    seed 42: RF         R²=+0.1400
+    seed 42: MLP        R²=+0.0545
+    seed 42: Geo-GCN    R²=+0.3994
+    seed 42: EGSG-GCN   R²=+0.4177
+    seed 123: RF         R²=+0.1121
+    seed 123: MLP        R²=+0.0229
+    seed 123: Geo-GCN    R²=+0.4169
+    seed 123: EGSG-GCN   R²=+0.4367
+    seed 2025: RF         R²=+0.1368
+    seed 2025: MLP        R²=+0.0674
+    seed 2025: Geo-GCN    R²=+0.4798
+    seed 2025: EGSG-GCN   R²=+0.4553
+    seed 7: RF         R²=+0.0963
+    seed 7: MLP        R²=-0.0260
+    seed 7: Geo-GCN    R²=+0.4781
+    seed 7: EGSG-GCN   R²=+0.4604
+    seed 13: RF         R²=+0.1452
+    seed 13: MLP        R²=+0.0641
+    seed 13: Geo-GCN    R²=+0.5007
+    seed 13: EGSG-GCN   R²=+0.4430
+    seed 37: RF         R²=+0.1343
+    seed 37: MLP        R²=+0.0237
+    seed 37: Geo-GCN    R²=+0.4774
+    seed 37: EGSG-GCN   R²=+0.4661
+    seed 61: RF         R²=+0.1530
+    seed 61: MLP        R²=+0.0166
+    seed 61: Geo-GCN    R²=+0.4719
+    seed 61: EGSG-GCN   R²=+0.4824
+    seed 73: RF         R²=+0.0901
+    seed 73: MLP        R²=+0.0138
+    seed 73: Geo-GCN    R²=+0.4425
+    seed 73: EGSG-GCN   R²=+0.4123
+    seed 97: RF         R²=+0.1140
+    seed 97: MLP        R²=+0.0270
+    seed 97: Geo-GCN    R²=+0.4518
+    seed 97: EGSG-GCN   R²=+0.4306
+    seed 101: RF         R²=+0.0946
+    seed 101: MLP        R²=+0.0563
+    seed 101: Geo-GCN    R²=+0.5084
+    seed 101: EGSG-GCN   R²=+0.4492
+
+  [buffer_30km LST 汇总]
+    RF         R²=+0.1216±0.0230
+    MLP        R²=+0.0320±0.0289
+    Geo-GCN    R²=+0.4627±0.0349
+    EGSG-GCN   R²=+0.4454±0.0219
+  EGSG vs Geo (buffer_30 LST): ΔR²=-0.0173, p=0.082273
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_second_variable_ablation_20260823_210315\second_variable_ablation_report.md

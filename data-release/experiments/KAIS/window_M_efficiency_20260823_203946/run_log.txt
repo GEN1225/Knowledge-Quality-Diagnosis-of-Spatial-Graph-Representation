@@ -1,0 +1,47 @@
+窗口M: 计算效率表
+时间戳: 20260823_203946
+
+加载数据 ...
+  样本数: 6638, 特征数: 16
+
+图构建计时 (单次) ...
+  Geo kNN (k=10):   0.045s, 边数=132760
+  EGSG (k=10, 250m): 0.095s, 边数=121396
+
+======================================================================
+训练/推理计时 (单核 CPU, 3 seeds) ...
+======================================================================
+  seed 42: RF              train=   3.720s infer= 0.0348s R2=+0.3724
+  seed 42: XGBoost_fixed   train=   0.955s infer= 0.0065s R2=+0.3708
+  seed 42: LightGBM_fixed  train=   0.402s infer= 0.0326s R2=+0.3427
+  seed 42: MLP             train=   2.553s infer= 0.0012s R2=+0.3752 params=5313
+  seed 42: Geo-GCN         train=  29.549s infer= 0.0432s R2=+0.3636 params=5313
+  seed 42: EGSG-GCN        train=  26.751s infer= 0.0403s R2=+0.4022 params=5313
+  seed 123: RF              train=   3.826s infer= 0.0364s R2=+0.3549
+  seed 123: XGBoost_fixed   train=   0.867s infer= 0.0066s R2=+0.3507
+  seed 123: LightGBM_fixed  train=   0.389s infer= 0.0318s R2=+0.3433
+  seed 123: MLP             train=   2.493s infer= 0.0009s R2=+0.3862 params=5313
+  seed 123: Geo-GCN         train=  28.632s infer= 0.0382s R2=+0.3685 params=5313
+  seed 123: EGSG-GCN        train=  26.852s infer= 0.0352s R2=+0.4249 params=5313
+  seed 2025: RF              train=   3.815s infer= 0.0335s R2=+0.3521
+  seed 2025: XGBoost_fixed   train=   0.822s infer= 0.0067s R2=+0.3374
+  seed 2025: LightGBM_fixed  train=   0.383s infer= 0.0326s R2=+0.3312
+  seed 2025: MLP             train=   2.561s infer= 0.0008s R2=+0.3610 params=5313
+  seed 2025: Geo-GCN         train=  29.273s infer= 0.0409s R2=+0.3558 params=5313
+  seed 2025: EGSG-GCN        train=  26.794s infer= 0.0346s R2=+0.3827 params=5313
+
+汇总 (mean±std over 3 seeds):
+  RF              train=   3.787±0.058s  infer=  0.0349±0.0015s  params=nan  R2=+0.3598±0.0110
+  XGBoost_fixed   train=   0.881±0.067s  infer=  0.0066±0.0001s  params=nan  R2=+0.3530±0.0168
+  LightGBM_fixed  train=   0.391±0.010s  infer=  0.0323±0.0005s  params=nan  R2=+0.3391±0.0068
+  MLP             train=   2.536±0.037s  infer=  0.0010±0.0002s  params=5313.0  R2=+0.3741±0.0126
+  Geo-GCN         train=  29.151±0.470s  infer=  0.0408±0.0025s  params=5313.0  R2=+0.3626±0.0064
+  EGSG-GCN        train=  26.799±0.051s  infer=  0.0367±0.0031s  params=5313.0  R2=+0.4033±0.0211
+Traceback (most recent call last):
+  File "C:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_efficiency_table.py", line 466, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_efficiency_table.py", line 437, in main
+    f"{fmt(r['infer_s_mean'], r['infer_s_std'])} | {int(r['n_params'])} | "
+                                                    ~~~^^^^^^^^^^^^^^^
+ValueError: cannot convert float NaN to integer

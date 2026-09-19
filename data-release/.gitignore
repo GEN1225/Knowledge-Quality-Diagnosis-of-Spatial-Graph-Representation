@@ -1,0 +1,21 @@
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Large raw imagery must never be committed here (this repo ships derived tables only)
+*.tif
+*.tiff
+*.hdf
+*.h5
+*.nc
+*.img

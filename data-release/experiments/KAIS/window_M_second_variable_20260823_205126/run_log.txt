@@ -1,0 +1,116 @@
+窗口M — NDVI/LST 第二验证变量（主对照）
+时间戳: 20260823_205126
+
+======================================================================
+任务 LST: 目标=lst_mean, 特征=14 维, n=7038
+  目标统计: mean=281.9020, std=4.6384, min=270.9160, max=296.5726
+  目标-高程相关: r=-0.5704
+======================================================================
+  EGSG 边数: 128476, Geo 边数: 140760
+    LST seed 42: RF         R²=+0.7393 (ep=None)
+    LST seed 42: MLP        R²=+0.7045 (ep=300)
+    LST seed 42: Geo-GCN    R²=+0.8166 (ep=300)
+    LST seed 42: EGSG-GCN   R²=+0.7993 (ep=300)
+    LST seed 123: RF         R²=+0.7220 (ep=None)
+    LST seed 123: MLP        R²=+0.7198 (ep=300)
+    LST seed 123: Geo-GCN    R²=+0.8157 (ep=300)
+    LST seed 123: EGSG-GCN   R²=+0.7889 (ep=300)
+    LST seed 2025: RF         R²=+0.7241 (ep=None)
+    LST seed 2025: MLP        R²=+0.7023 (ep=300)
+    LST seed 2025: Geo-GCN    R²=+0.8180 (ep=300)
+    LST seed 2025: EGSG-GCN   R²=+0.7936 (ep=300)
+    LST seed 7: RF         R²=+0.7344 (ep=None)
+    LST seed 7: MLP        R²=+0.6866 (ep=300)
+    LST seed 7: Geo-GCN    R²=+0.8092 (ep=300)
+    LST seed 7: EGSG-GCN   R²=+0.7893 (ep=300)
+    LST seed 13: RF         R²=+0.7112 (ep=None)
+    LST seed 13: MLP        R²=+0.6761 (ep=300)
+    LST seed 13: Geo-GCN    R²=+0.8040 (ep=300)
+    LST seed 13: EGSG-GCN   R²=+0.7820 (ep=300)
+    LST seed 37: RF         R²=+0.7412 (ep=None)
+    LST seed 37: MLP        R²=+0.7211 (ep=300)
+    LST seed 37: Geo-GCN    R²=+0.8060 (ep=300)
+    LST seed 37: EGSG-GCN   R²=+0.7885 (ep=300)
+    LST seed 61: RF         R²=+0.7077 (ep=None)
+    LST seed 61: MLP        R²=+0.6860 (ep=300)
+    LST seed 61: Geo-GCN    R²=+0.7862 (ep=300)
+    LST seed 61: EGSG-GCN   R²=+0.7645 (ep=300)
+    LST seed 73: RF         R²=+0.7234 (ep=None)
+    LST seed 73: MLP        R²=+0.6963 (ep=300)
+    LST seed 73: Geo-GCN    R²=+0.8207 (ep=290)
+    LST seed 73: EGSG-GCN   R²=+0.7895 (ep=290)
+    LST seed 97: RF         R²=+0.7190 (ep=None)
+    LST seed 97: MLP        R²=+0.6978 (ep=300)
+    LST seed 97: Geo-GCN    R²=+0.7928 (ep=300)
+    LST seed 97: EGSG-GCN   R²=+0.7947 (ep=300)
+    LST seed 101: RF         R²=+0.7531 (ep=None)
+    LST seed 101: MLP        R²=+0.7224 (ep=300)
+    LST seed 101: Geo-GCN    R²=+0.8245 (ep=300)
+    LST seed 101: EGSG-GCN   R²=+0.8142 (ep=300)
+
+======================================================================
+任务 NDVI: 目标=ndvi_mean, 特征=7 维, n=6638
+  目标统计: mean=0.7297, std=0.1975, min=-0.0438, max=0.9897
+  目标-高程相关: r=-0.6220
+======================================================================
+  EGSG 边数: 121396, Geo 边数: 132760
+    NDVI seed 42: RF         R²=+0.6691 (ep=None)
+    NDVI seed 42: MLP        R²=+0.6479 (ep=300)
+    NDVI seed 42: Geo-GCN    R²=+0.3867 (ep=300)
+    NDVI seed 42: EGSG-GCN   R²=+0.6473 (ep=300)
+    NDVI seed 123: RF         R²=+0.6928 (ep=None)
+    NDVI seed 123: MLP        R²=+0.6705 (ep=300)
+    NDVI seed 123: Geo-GCN    R²=+0.4112 (ep=300)
+    NDVI seed 123: EGSG-GCN   R²=+0.6595 (ep=300)
+    NDVI seed 2025: RF         R²=+0.6322 (ep=None)
+    NDVI seed 2025: MLP        R²=+0.5951 (ep=300)
+    NDVI seed 2025: Geo-GCN    R²=+0.3522 (ep=300)
+    NDVI seed 2025: EGSG-GCN   R²=+0.6175 (ep=300)
+    NDVI seed 7: RF         R²=+0.6565 (ep=None)
+    NDVI seed 7: MLP        R²=+0.6481 (ep=300)
+    NDVI seed 7: Geo-GCN    R²=+0.3954 (ep=280)
+    NDVI seed 7: EGSG-GCN   R²=+0.6445 (ep=300)
+    NDVI seed 13: RF         R²=+0.6508 (ep=None)
+    NDVI seed 13: MLP        R²=+0.6291 (ep=300)
+    NDVI seed 13: Geo-GCN    R²=+0.3712 (ep=300)
+    NDVI seed 13: EGSG-GCN   R²=+0.6277 (ep=300)
+    NDVI seed 37: RF         R²=+0.6624 (ep=None)
+    NDVI seed 37: MLP        R²=+0.6545 (ep=300)
+    NDVI seed 37: Geo-GCN    R²=+0.3979 (ep=300)
+    NDVI seed 37: EGSG-GCN   R²=+0.6439 (ep=300)
+    NDVI seed 61: RF         R²=+0.6642 (ep=None)
+    NDVI seed 61: MLP        R²=+0.6481 (ep=300)
+    NDVI seed 61: Geo-GCN    R²=+0.3706 (ep=300)
+    NDVI seed 61: EGSG-GCN   R²=+0.6398 (ep=300)
+    NDVI seed 73: RF         R²=+0.6591 (ep=None)
+    NDVI seed 73: MLP        R²=+0.6497 (ep=290)
+    NDVI seed 73: Geo-GCN    R²=+0.3639 (ep=300)
+    NDVI seed 73: EGSG-GCN   R²=+0.6332 (ep=300)
+    NDVI seed 97: RF         R²=+0.6688 (ep=None)
+    NDVI seed 97: MLP        R²=+0.6472 (ep=300)
+    NDVI seed 97: Geo-GCN    R²=+0.3626 (ep=300)
+    NDVI seed 97: EGSG-GCN   R²=+0.6372 (ep=300)
+    NDVI seed 101: RF         R²=+0.6479 (ep=None)
+    NDVI seed 101: MLP        R²=+0.6452 (ep=260)
+    NDVI seed 101: Geo-GCN    R²=+0.3672 (ep=280)
+    NDVI seed 101: EGSG-GCN   R²=+0.6274 (ep=300)
+
+汇总:
+  LST   RF         R²=+0.7275±0.0142
+  LST   MLP        R²=+0.7013±0.0160
+  LST   Geo-GCN    R²=+0.8094±0.0124
+  LST   EGSG-GCN   R²=+0.7905±0.0126
+  NDVI  RF         R²=+0.6604±0.0159
+  NDVI  MLP        R²=+0.6435±0.0198
+  NDVI  Geo-GCN    R²=+0.3779±0.0188
+  NDVI  EGSG-GCN   R²=+0.6378±0.0120
+
+核心配对检验 (EGSG vs 基线):
+  LST   EGSG-GCN vs Geo-GCN    ΔR²=-0.0189 p=0.000119 (***) d=-2.04
+  LST   EGSG-GCN vs RF         ΔR²=+0.0629 p=0.000000 (***) d=+7.38
+  LST   EGSG-GCN vs MLP        ΔR²=+0.0892 p=0.000000 (***) d=+6.74
+  NDVI  EGSG-GCN vs Geo-GCN    ΔR²=+0.2599 p=0.000000 (***) d=+26.32
+  NDVI  EGSG-GCN vs RF         ΔR²=-0.0226 p=0.000002 (***) d=-3.35
+  NDVI  EGSG-GCN vs MLP        ΔR²=-0.0057 p=0.146902 (ns) d=-0.50
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_second_variable_20260823_205126\second_variable_report.md

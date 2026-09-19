@@ -1,0 +1,82 @@
+窗口M — AGB 高程特征消融（exp_040）
+时间戳: 20260824_132928
+n=6638, 全特征=16 维, 无高程=15 维
+EGSG 边数: 121396, Geo 边数: 132760
+    seed 42: MLP_full       R²=+0.3758
+    seed 42: MLP_noelev     R²=+0.3497
+    seed 42: RF_full        R²=+0.3724
+    seed 42: RF_noelev      R²=+0.3004
+    seed 42: Geo_noelev     R²=+0.3510
+    seed 42: EGSG_noelev    R²=+0.3983
+    seed 123: MLP_full       R²=+0.3862
+    seed 123: MLP_noelev     R²=+0.3590
+    seed 123: RF_full        R²=+0.3549
+    seed 123: RF_noelev      R²=+0.3293
+    seed 123: Geo_noelev     R²=+0.3490
+    seed 123: EGSG_noelev    R²=+0.4106
+    seed 2025: MLP_full       R²=+0.3610
+    seed 2025: MLP_noelev     R²=+0.3327
+    seed 2025: RF_full        R²=+0.3521
+    seed 2025: RF_noelev      R²=+0.3243
+    seed 2025: Geo_noelev     R²=+0.3277
+    seed 2025: EGSG_noelev    R²=+0.3777
+    seed 7: MLP_full       R²=+0.3913
+    seed 7: MLP_noelev     R²=+0.3539
+    seed 7: RF_full        R²=+0.3755
+    seed 7: RF_noelev      R²=+0.3271
+    seed 7: Geo_noelev     R²=+0.3397
+    seed 7: EGSG_noelev    R²=+0.4183
+    seed 13: MLP_full       R²=+0.4025
+    seed 13: MLP_noelev     R²=+0.3726
+    seed 13: RF_full        R²=+0.3839
+    seed 13: RF_noelev      R²=+0.3390
+    seed 13: Geo_noelev     R²=+0.3591
+    seed 13: EGSG_noelev    R²=+0.4193
+    seed 37: MLP_full       R²=+0.3992
+    seed 37: MLP_noelev     R²=+0.3687
+    seed 37: RF_full        R²=+0.3759
+    seed 37: RF_noelev      R²=+0.3414
+    seed 37: Geo_noelev     R²=+0.3482
+    seed 37: EGSG_noelev    R²=+0.4106
+    seed 61: MLP_full       R²=+0.3871
+    seed 61: MLP_noelev     R²=+0.3464
+    seed 61: RF_full        R²=+0.3894
+    seed 61: RF_noelev      R²=+0.3311
+    seed 61: Geo_noelev     R²=+0.3677
+    seed 61: EGSG_noelev    R²=+0.4359
+    seed 73: MLP_full       R²=+0.3710
+    seed 73: MLP_noelev     R²=+0.3161
+    seed 73: RF_full        R²=+0.3577
+    seed 73: RF_noelev      R²=+0.2877
+    seed 73: Geo_noelev     R²=+0.3185
+    seed 73: EGSG_noelev    R²=+0.3729
+    seed 97: MLP_full       R²=+0.3293
+    seed 97: MLP_noelev     R²=+0.2885
+    seed 97: RF_full        R²=+0.3084
+    seed 97: RF_noelev      R²=+0.2620
+    seed 97: Geo_noelev     R²=+0.3084
+    seed 97: EGSG_noelev    R²=+0.3528
+    seed 101: MLP_full       R²=+0.3776
+    seed 101: MLP_noelev     R²=+0.3512
+    seed 101: RF_full        R²=+0.3701
+    seed 101: RF_noelev      R²=+0.3159
+    seed 101: Geo_noelev     R²=+0.3317
+    seed 101: EGSG_noelev    R²=+0.4021
+  锚点 MLP_full: 本实验 +0.3781 vs 封存 +0.3781 (Δ=+0.0000)
+  锚点 RF_full: 本实验 +0.3640 vs 封存 +0.3640 (Δ=+0.0000)
+Traceback (most recent call last):
+  File "c:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_agb_elevation_ablation.py", line 328, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\qq201\Desktop\experiment_datasets_export_20260609\code\experiments\window_M_agb_elevation_ablation.py", line 264, in main
+    got = df_sum[df_sum["method"] == key]["r2_mean"].iloc[0]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\qq201\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qq201\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1773, in _getitem_axis
+    self._validate_integer(key, axis)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\qq201\AppData\Local\Programs\Python\Python313\Lib\site-packages\pandas\core\indexing.py", line 1706, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds

@@ -1,0 +1,73 @@
+窗口M — 随机剪边对照（exp_041，KAIS A1）
+时间戳: 20260824_133952
+n=6638, 特征=16 维
+EGSG 有向边: 121396, Geo 有向边: 132760, EGSG 度分布 sum=60698
+随机剪法 rng=0: 有向边 121396 (= EGSG 边数), 度分布与 EGSG 一致
+随机剪法 rng=1: 有向边 121396 (= EGSG 边数), 度分布与 EGSG 一致
+随机剪法 rng=2: 有向边 121396 (= EGSG 边数), 度分布与 EGSG 一致
+    seed 42: Geo_full         R²=+0.3624
+    seed 42: EGSG_full        R²=+0.4017
+    seed 42: PrunedGeo_r0     R²=+0.3679
+    seed 42: PrunedGeo_r1     R²=+0.3683
+    seed 42: PrunedGeo_r2     R²=+0.3674
+    seed 123: Geo_full         R²=+0.3690
+    seed 123: EGSG_full        R²=+0.4250
+    seed 123: PrunedGeo_r0     R²=+0.3702
+    seed 123: PrunedGeo_r1     R²=+0.3703
+    seed 123: PrunedGeo_r2     R²=+0.3699
+    seed 2025: Geo_full         R²=+0.3555
+    seed 2025: EGSG_full        R²=+0.3824
+    seed 2025: PrunedGeo_r0     R²=+0.3561
+    seed 2025: PrunedGeo_r1     R²=+0.3593
+    seed 2025: PrunedGeo_r2     R²=+0.3572
+    seed 7: Geo_full         R²=+0.3654
+    seed 7: EGSG_full        R²=+0.4308
+    seed 7: PrunedGeo_r0     R²=+0.3696
+    seed 7: PrunedGeo_r1     R²=+0.3695
+    seed 7: PrunedGeo_r2     R²=+0.3679
+    seed 13: Geo_full         R²=+0.3748
+    seed 13: EGSG_full        R²=+0.4304
+    seed 13: PrunedGeo_r0     R²=+0.3738
+    seed 13: PrunedGeo_r1     R²=+0.3782
+    seed 13: PrunedGeo_r2     R²=+0.3758
+    seed 37: Geo_full         R²=+0.3765
+    seed 37: EGSG_full        R²=+0.4130
+    seed 37: PrunedGeo_r0     R²=+0.3785
+    seed 37: PrunedGeo_r1     R²=+0.3773
+    seed 37: PrunedGeo_r2     R²=+0.3794
+    seed 61: Geo_full         R²=+0.3889
+    seed 61: EGSG_full        R²=+0.4377
+    seed 61: PrunedGeo_r0     R²=+0.3928
+    seed 61: PrunedGeo_r1     R²=+0.3914
+    seed 61: PrunedGeo_r2     R²=+0.3916
+    seed 73: Geo_full         R²=+0.3493
+    seed 73: EGSG_full        R²=+0.3868
+    seed 73: PrunedGeo_r0     R²=+0.3516
+    seed 73: PrunedGeo_r1     R²=+0.3540
+    seed 73: PrunedGeo_r2     R²=+0.3513
+    seed 97: Geo_full         R²=+0.3205
+    seed 97: EGSG_full        R²=+0.3712
+    seed 97: PrunedGeo_r0     R²=+0.3204
+    seed 97: PrunedGeo_r1     R²=+0.3230
+    seed 97: PrunedGeo_r2     R²=+0.3207
+    seed 101: Geo_full         R²=+0.3554
+    seed 101: EGSG_full        R²=+0.4156
+    seed 101: PrunedGeo_r0     R²=+0.3565
+    seed 101: PrunedGeo_r1     R²=+0.3563
+    seed 101: PrunedGeo_r2     R²=+0.3562
+
+=== 汇总（10 seeds）===
+     variant  r2_mean   r2_std
+    Geo_full 0.361785 0.018648
+   EGSG_full 0.409460 0.022966
+PrunedGeo_r0 0.363730 0.019421
+PrunedGeo_r1 0.364763 0.018492
+PrunedGeo_r2 0.363737 0.019273
+  锚点 Geo_full: 本实验 +0.3618 vs 封存 +0.3618 (Δ=-0.0000)
+  锚点 EGSG_full: 本实验 +0.4095 vs 封存 +0.4095 (Δ=-0.0000)
+
+  随机剪(3法×10seeds) vs Geo_full: ΔR²=+0.0023, p=0.000850
+  随机剪 vs EGSG_full: ΔR²=-0.0454, p=0.000001
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_random_edge_pruning_20260824_133952\random_pruning_report.md
+判定: 随机剪介于两者之间 → 稀疏度贡献部分存在，需在文中如实限定（部分增益来自稀疏化）

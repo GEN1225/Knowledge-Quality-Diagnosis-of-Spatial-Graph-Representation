@@ -1,0 +1,205 @@
+窗口M — buffer/elevation split 扩 10 seeds（跨区边删除协议 v2）
+时间戳: 20260823_200451
+清洗后样本: 6638
+构建 EGSG / Geo 全图 ...
+  EGSG 边数: 121396, Geo 边数: 132760
+      seed 42: RF         R²=+0.3724 (ep=None)
+      seed 42: MLP        R²=+0.3758 (ep=280)
+      seed 42: Geo-GCN    R²=+0.3624 (ep=290)
+      seed 42: EGSG-GCN   R²=+0.4017 (ep=300)
+      seed 123: RF         R²=+0.3549 (ep=None)
+      seed 123: MLP        R²=+0.3862 (ep=190)
+      seed 123: Geo-GCN    R²=+0.3690 (ep=300)
+      seed 123: EGSG-GCN   R²=+0.4250 (ep=290)
+      seed 2025: RF         R²=+0.3521 (ep=None)
+      seed 2025: MLP        R²=+0.3610 (ep=220)
+      seed 2025: Geo-GCN    R²=+0.3555 (ep=300)
+      seed 2025: EGSG-GCN   R²=+0.3824 (ep=300)
+      seed 7: RF         R²=+0.3755 (ep=None)
+      seed 7: MLP        R²=+0.3913 (ep=300)
+      seed 7: Geo-GCN    R²=+0.3654 (ep=300)
+      seed 7: EGSG-GCN   R²=+0.4308 (ep=300)
+      seed 13: RF         R²=+0.3839 (ep=None)
+      seed 13: MLP        R²=+0.4025 (ep=300)
+      seed 13: Geo-GCN    R²=+0.3748 (ep=280)
+      seed 13: EGSG-GCN   R²=+0.4304 (ep=300)
+      seed 37: RF         R²=+0.3759 (ep=None)
+      seed 37: MLP        R²=+0.3992 (ep=160)
+      seed 37: Geo-GCN    R²=+0.3765 (ep=300)
+      seed 37: EGSG-GCN   R²=+0.4130 (ep=280)
+      seed 61: RF         R²=+0.3894 (ep=None)
+      seed 61: MLP        R²=+0.3871 (ep=160)
+      seed 61: Geo-GCN    R²=+0.3889 (ep=270)
+      seed 61: EGSG-GCN   R²=+0.4377 (ep=290)
+      seed 73: RF         R²=+0.3577 (ep=None)
+      seed 73: MLP        R²=+0.3710 (ep=300)
+      seed 73: Geo-GCN    R²=+0.3493 (ep=270)
+      seed 73: EGSG-GCN   R²=+0.3868 (ep=290)
+      seed 97: RF         R²=+0.3084 (ep=None)
+      seed 97: MLP        R²=+0.3293 (ep=270)
+      seed 97: Geo-GCN    R²=+0.3205 (ep=270)
+      seed 97: EGSG-GCN   R²=+0.3712 (ep=300)
+      seed 101: RF         R²=+0.3701 (ep=None)
+      seed 101: MLP        R²=+0.3776 (ep=200)
+      seed 101: Geo-GCN    R²=+0.3554 (ep=290)
+      seed 101: EGSG-GCN   R²=+0.4156 (ep=300)
+
+  [random 参考组]
+    RF         R²=+0.3640±0.0230
+    MLP        R²=+0.3781±0.0213
+    Geo-GCN    R²=+0.3618±0.0186
+    EGSG-GCN   R²=+0.4095±0.0230
+
+  [buffer_30km 跨区边删除协议]  train=5217, test=1042
+      seed 42: RF         R²=-0.1697 (ep=None)
+      seed 42: MLP        R²=-0.0772 (ep=260)
+      seed 42: Geo-GCN    R²=-0.1068 (ep=300)
+      seed 42: EGSG-GCN   R²=-0.1831 (ep=300)
+      seed 123: RF         R²=-0.2137 (ep=None)
+      seed 123: MLP        R²=-0.0972 (ep=180)
+      seed 123: Geo-GCN    R²=-0.1506 (ep=290)
+      seed 123: EGSG-GCN   R²=-0.1673 (ep=300)
+      seed 2025: RF         R²=-0.1558 (ep=None)
+      seed 2025: MLP        R²=-0.0859 (ep=210)
+      seed 2025: Geo-GCN    R²=-0.1332 (ep=290)
+      seed 2025: EGSG-GCN   R²=-0.2467 (ep=290)
+      seed 7: RF         R²=-0.1191 (ep=None)
+      seed 7: MLP        R²=-0.0475 (ep=300)
+      seed 7: Geo-GCN    R²=-0.1094 (ep=250)
+      seed 7: EGSG-GCN   R²=-0.1828 (ep=300)
+      seed 13: RF         R²=-0.1578 (ep=None)
+      seed 13: MLP        R²=-0.0857 (ep=240)
+      seed 13: Geo-GCN    R²=-0.1281 (ep=270)
+      seed 13: EGSG-GCN   R²=-0.1624 (ep=300)
+      seed 37: RF         R²=-0.1624 (ep=None)
+      seed 37: MLP        R²=-0.0881 (ep=300)
+      seed 37: Geo-GCN    R²=-0.2493 (ep=300)
+      seed 37: EGSG-GCN   R²=-0.2472 (ep=300)
+      seed 61: RF         R²=-0.1495 (ep=None)
+      seed 61: MLP        R²=-0.0905 (ep=220)
+      seed 61: Geo-GCN    R²=-0.1019 (ep=220)
+      seed 61: EGSG-GCN   R²=-0.1597 (ep=270)
+      seed 73: RF         R²=-0.1833 (ep=None)
+      seed 73: MLP        R²=-0.0515 (ep=190)
+      seed 73: Geo-GCN    R²=-0.2676 (ep=300)
+      seed 73: EGSG-GCN   R²=-0.1915 (ep=300)
+      seed 97: RF         R²=-0.1452 (ep=None)
+      seed 97: MLP        R²=-0.0784 (ep=260)
+      seed 97: Geo-GCN    R²=-0.0054 (ep=120)
+      seed 97: EGSG-GCN   R²=-0.1570 (ep=290)
+      seed 101: RF         R²=-0.1380 (ep=None)
+      seed 101: MLP        R²=-0.0944 (ep=180)
+      seed 101: Geo-GCN    R²=-0.1147 (ep=290)
+      seed 101: EGSG-GCN   R²=-0.2082 (ep=290)
+
+  [buffer_30km 10-seed 汇总]
+    RF         R²=-0.1594±0.0259
+    MLP        R²=-0.0796±0.0171
+    Geo-GCN    R²=-0.1367±0.0750
+    EGSG-GCN   R²=-0.1906±0.0337
+
+  [buffer_50km 跨区边删除协议]  train=4917, test=1042
+      seed 42: RF         R²=-0.1886 (ep=None)
+      seed 42: MLP        R²=-0.0675 (ep=260)
+      seed 42: Geo-GCN    R²=-0.0859 (ep=250)
+      seed 42: EGSG-GCN   R²=-0.2088 (ep=300)
+      seed 123: RF         R²=-0.1387 (ep=None)
+      seed 123: MLP        R²=-0.0955 (ep=150)
+      seed 123: Geo-GCN    R²=-0.1458 (ep=290)
+      seed 123: EGSG-GCN   R²=-0.1653 (ep=300)
+      seed 2025: RF         R²=-0.2451 (ep=None)
+      seed 2025: MLP        R²=-0.1099 (ep=260)
+      seed 2025: Geo-GCN    R²=-0.1587 (ep=250)
+      seed 2025: EGSG-GCN   R²=-0.2684 (ep=300)
+      seed 7: RF         R²=-0.2242 (ep=None)
+      seed 7: MLP        R²=-0.0839 (ep=200)
+      seed 7: Geo-GCN    R²=-0.1352 (ep=210)
+      seed 7: EGSG-GCN   R²=-0.2381 (ep=300)
+      seed 13: RF         R²=-0.1876 (ep=None)
+      seed 13: MLP        R²=-0.1033 (ep=290)
+      seed 13: Geo-GCN    R²=-0.1412 (ep=230)
+      seed 13: EGSG-GCN   R²=-0.1767 (ep=290)
+      seed 37: RF         R²=-0.2180 (ep=None)
+      seed 37: MLP        R²=-0.1044 (ep=150)
+      seed 37: Geo-GCN    R²=-0.1696 (ep=210)
+      seed 37: EGSG-GCN   R²=-0.3382 (ep=300)
+      seed 61: RF         R²=-0.1661 (ep=None)
+      seed 61: MLP        R²=-0.0674 (ep=250)
+      seed 61: Geo-GCN    R²=-0.1566 (ep=300)
+      seed 61: EGSG-GCN   R²=-0.1837 (ep=300)
+      seed 73: RF         R²=-0.1682 (ep=None)
+      seed 73: MLP        R²=-0.0808 (ep=140)
+      seed 73: Geo-GCN    R²=-0.2771 (ep=280)
+      seed 73: EGSG-GCN   R²=-0.2343 (ep=300)
+      seed 97: RF         R²=-0.1536 (ep=None)
+      seed 97: MLP        R²=-0.0665 (ep=290)
+      seed 97: Geo-GCN    R²=-0.0634 (ep=300)
+      seed 97: EGSG-GCN   R²=-0.1436 (ep=300)
+      seed 101: RF         R²=-0.1559 (ep=None)
+      seed 101: MLP        R²=-0.0486 (ep=200)
+      seed 101: Geo-GCN    R²=-0.0691 (ep=150)
+      seed 101: EGSG-GCN   R²=-0.2748 (ep=280)
+
+  [buffer_50km 10-seed 汇总]
+    RF         R²=-0.1846±0.0347
+    MLP        R²=-0.0828±0.0203
+    Geo-GCN    R²=-0.1403±0.0616
+    EGSG-GCN   R²=-0.2232±0.0595
+
+  [elev_high 跨区边删除协议]  train=4447, test=2191
+      seed 42: RF         R²=-0.3449 (ep=None)
+      seed 42: MLP        R²=-0.1085 (ep=130)
+      seed 42: Geo-GCN    R²=-0.6700 (ep=300)
+      seed 42: EGSG-GCN   R²=-0.8369 (ep=300)
+      seed 123: RF         R²=-0.2126 (ep=None)
+      seed 123: MLP        R²=-0.1201 (ep=190)
+      seed 123: Geo-GCN    R²=-0.3277 (ep=300)
+      seed 123: EGSG-GCN   R²=-0.3573 (ep=300)
+      seed 2025: RF         R²=-0.4100 (ep=None)
+      seed 2025: MLP        R²=-0.0492 (ep=160)
+      seed 2025: Geo-GCN    R²=-0.3342 (ep=180)
+      seed 2025: EGSG-GCN   R²=-0.7551 (ep=300)
+      seed 7: RF         R²=-0.3240 (ep=None)
+      seed 7: MLP        R²=-0.1126 (ep=300)
+      seed 7: Geo-GCN    R²=-0.4828 (ep=290)
+      seed 7: EGSG-GCN   R²=-1.3885 (ep=290)
+      seed 13: RF         R²=-0.4322 (ep=None)
+      seed 13: MLP        R²=-0.0887 (ep=180)
+      seed 13: Geo-GCN    R²=-0.5664 (ep=260)
+      seed 13: EGSG-GCN   R²=-0.1959 (ep=300)
+      seed 37: RF         R²=-0.4812 (ep=None)
+      seed 37: MLP        R²=-0.1165 (ep=300)
+      seed 37: Geo-GCN    R²=-0.6213 (ep=290)
+      seed 37: EGSG-GCN   R²=-0.5029 (ep=290)
+      seed 61: RF         R²=-0.2360 (ep=None)
+      seed 61: MLP        R²=-0.1064 (ep=200)
+      seed 61: Geo-GCN    R²=-0.2404 (ep=300)
+      seed 61: EGSG-GCN   R²=-0.1178 (ep=270)
+      seed 73: RF         R²=-0.4363 (ep=None)
+      seed 73: MLP        R²=-0.0573 (ep=220)
+      seed 73: Geo-GCN    R²=-0.7850 (ep=260)
+      seed 73: EGSG-GCN   R²=-0.3293 (ep=290)
+      seed 97: RF         R²=-0.3424 (ep=None)
+      seed 97: MLP        R²=-0.0662 (ep=170)
+      seed 97: Geo-GCN    R²=-0.1017 (ep=260)
+      seed 97: EGSG-GCN   R²=-0.1828 (ep=300)
+      seed 101: RF         R²=-0.3581 (ep=None)
+      seed 101: MLP        R²=-0.0719 (ep=230)
+      seed 101: Geo-GCN    R²=-0.3561 (ep=290)
+      seed 101: EGSG-GCN   R²=-0.5032 (ep=290)
+
+  [elev_high 10-seed 汇总]
+    RF         R²=-0.3578±0.0863
+    MLP        R²=-0.0897±0.0266
+    Geo-GCN    R²=-0.4486±0.2127
+    EGSG-GCN   R²=-0.5170±0.3879
+
+锚点检查（3-seed 子集 vs 封存修复值，|Δ|<0.15 视为协议解释一致）:
+  buffer_30km  EGSG-GCN   本协议3seed=-0.1990  封存=-0.2190 Δ=+0.0200 [OK]
+  buffer_30km  Geo-GCN    本协议3seed=-0.1302  封存=-0.1290 Δ=-0.0012 [OK]
+  buffer_50km  EGSG-GCN   本协议3seed=-0.2142  封存=-0.2410 Δ=+0.0268 [OK]
+  buffer_50km  Geo-GCN    本协议3seed=-0.1301  封存=-0.1190 Δ=-0.0111 [OK]
+  elev_high    EGSG-GCN   本协议3seed=-0.6498  封存=-0.4800 Δ=-0.1698 [CHECK]
+  elev_high    Geo-GCN    本协议3seed=-0.4440  封存=-0.2590 Δ=-0.1850 [CHECK]
+
+报告已保存: c:\Users\qq201\Desktop\experiment_datasets_export_20260609\outputs\experiments\window_M_buffer_split_strict_20260823_200451\window_M_buffer_split_strict_10seeds_report.md
